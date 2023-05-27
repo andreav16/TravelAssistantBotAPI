@@ -1,0 +1,23 @@
+﻿{
+  //  "web": {
+  //    "client_id": "234598046215-bhqb2iqhmodb6877h8f0mgsqhkbt74lb.apps.googleusercontent.com",
+  //    "project_id": "virtualassistant-387704",
+  //    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  //    "token_uri": "https://oauth2.googleapis.com/token",
+  //    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  //    "client_secret": "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"
+  //  }
+  //}
+
+
+
+  "installed": {
+    "client_id": "234598046215-pggodfknoi5no7p3jt3rmehsa1k04501.apps.googleusercontent.com",
+    "project_id": "virtualassistant-387704",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "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",
+    "redirect_uris": [ "http://localhost" ]
+  }
+}
