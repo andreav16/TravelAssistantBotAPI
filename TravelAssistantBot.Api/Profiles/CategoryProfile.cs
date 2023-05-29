@@ -11,6 +11,10 @@ namespace TravelAssistantBot.Api.Profiles
 		{
 			CreateMap<EventDetailsDataTransferObject, AddEventDataTransferObject>();
             CreateMap<AddEventDataTransferObject, EventDetailsDataTransferObject>();
+			CreateMap<AddEventDataTransferObject, Core.Entities.CalendarEvent>();
+			CreateMap<Core.Entities.CalendarEvent, AddEventDataTransferObject>();
+			CreateMap<EventDetailsDataTransferObject, Core.Entities.CalendarEvent>();
+			CreateMap<Core.Entities.CalendarEvent, EventDetailsDataTransferObject>();
         }
 	}
 }
