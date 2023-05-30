@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Google.Apis.Calendar.v3.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +9,10 @@ namespace TravelAssistantBot.Api.DataTransferObjects.EventDataTransferObjects
 {
     public class EventDetailsDataTransferObject
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string Summary { get; set; }
         public string Description { get; set; }
-        public DateTime StartDateTime { get; set; }
-        public DateTime EndDateTime { get; set; }
+        public EventDateTime Start { get; set; }
+        public EventDateTime End { get; set; }
     }
 }

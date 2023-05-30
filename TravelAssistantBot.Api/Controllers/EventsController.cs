@@ -21,6 +21,9 @@ namespace TravelAssistantBot.Api.Controllers
 
 
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> AddEventAsync(AddEventDataTransferObject eventToAdd)
         {
             var result = await this.eventService.AddAsync(this.mapper.Map<Core.Entities.CalendarEvent>(eventToAdd));
@@ -29,6 +32,9 @@ namespace TravelAssistantBot.Api.Controllers
         }
 
         [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetAllEventsAsync()
         {
             var result = await this.eventService.GetAllAsync();
@@ -37,6 +43,9 @@ namespace TravelAssistantBot.Api.Controllers
         }
 
         [HttpDelete]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task DeleteEventAsync(string eventId)
         {
             await this.eventService.RemoveAsync(eventId);

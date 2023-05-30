@@ -19,7 +19,7 @@ namespace TravelAssistantBot.Core.EventManager
             string[] scopes = { CalendarService.Scope.Calendar };
 
             UserCredential credential;
-            using (var stream = new FileStream("C:\\Users\\angie\\Source\\Repos\\andreasmm16\\TravelAssistantBotAPI\\TravelAssistantBot.Core\\EventManager\\GoogleCalendarClient.json", FileMode.Open, FileAccess.Read))
+            using (var stream = new FileStream("..\\TravelAssistantBot.Core\\EventManager\\GoogleCalendarClient.json", FileMode.Open, FileAccess.Read))
             {
                 string credPath = "token.json";
                 credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
