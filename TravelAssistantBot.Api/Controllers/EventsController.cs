@@ -2,6 +2,7 @@
 using Google.Apis.Calendar.v3.Data;
 using Microsoft.AspNetCore.Mvc;
 using TravelAssistantBot.Api.DataTransferObjects.EventDataTransferObjects;
+using TravelAssistantBot.Core.ConversationalLanguageInterpreter;
 using TravelAssistantBot.Core.EventManager;
 
 namespace TravelAssistantBot.Api.Controllers
@@ -13,7 +14,7 @@ namespace TravelAssistantBot.Api.Controllers
         private readonly IEventService eventService;
         private readonly IMapper mapper;
 
-        public EventsController(IEventService eventService, IMapper mapper)
+        public EventsController(IEventService eventService, IMapper mapper, ILanguageInterpreter languageInterpreter)
         {
             this.eventService = eventService;
             this.mapper = mapper;
@@ -36,7 +37,7 @@ namespace TravelAssistantBot.Api.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetAllEventsAsync()
-        {
+        {  
             var result = await this.eventService.GetAllAsync();
             var events = this.mapper.Map<IList<EventDetailsDataTransferObject>>(result.Result);
             return result.Succeeded ? Ok(events) : GetErrorResult<IList<Event>>(result);
