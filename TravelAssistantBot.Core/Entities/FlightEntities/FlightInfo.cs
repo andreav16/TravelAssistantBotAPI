@@ -12,7 +12,9 @@ namespace TravelAssistantBot.Core.Entities.FlightEntities
         public string Number { get; set; }
         public string IATA { get; set; }
         public string ICAO { get; set; }
-        public string Codeshared { get; set; }
+
+        public int CodeShareId { get; set; }
+        public CodeShare CodeShare { get; set; }
 
         public int FlightId { get; set; }
         public Flight Flight { get; set; }

@@ -24,6 +24,7 @@ namespace TravelAssistantBot.Core.Entities.FlightEntities
         public int FlightInfoId { get; set; }
         public FlightInfo FlightInfo { get; set; }
 
+
         public string Aircraft { get; set; }
         public string Live { get; set; }
     }
