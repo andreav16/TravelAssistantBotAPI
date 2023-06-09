@@ -1,5 +1,6 @@
 using TravelAssistantBot.Core;
 using TravelAssistantBot.Core.EventManager;
+using TravelAssistantBot.Core.GeopifyManager;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IEventService, EventService>();
+builder.Services.AddScoped<IGeopifyServices, GeopifyService>();
 builder.Services.AddAutoMapper(typeof(Program));
 
 

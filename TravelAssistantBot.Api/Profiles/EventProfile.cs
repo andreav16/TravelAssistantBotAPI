@@ -11,7 +11,7 @@ namespace TravelAssistantBot.Api.Profiles
 		public EventProfile()
 		{
 			CreateMap<AddEventDataTransferObject, Core.Entities.CalendarEvent>();
-            CreateMap<EventDetailsDataTransferObject, Event>();
+            CreateMap<EventDetailsDataTransferObject, Event>(); //origen a destino
             CreateMap<Event, EventDetailsDataTransferObject>();
         }
 	}
