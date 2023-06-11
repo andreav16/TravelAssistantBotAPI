@@ -46,9 +46,9 @@ namespace TravelAssistantBot.Api.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task DeleteEventAsync(string eventId)
+        public async Task DeleteEventAsync(string eventName)
         {
-            await this.eventService.RemoveAsync(eventId);
+            await this.eventService.RemoveAsync(eventName);
         }
     }
 }

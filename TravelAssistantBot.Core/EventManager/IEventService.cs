@@ -13,8 +13,9 @@ namespace TravelAssistantBot.Core.EventManager
     {
         Task<UserCredential> GetCredentialsAsync();
         Task<OperationResult<IList<Event>>> GetAllAsync();
+        Task<OperationResult<Event>> GetEventByNameAsync(string eventName);
         Task<OperationResult<Event>> AddAsync(CalendarEvent eventData);
-        Task RemoveAsync(string eventId);
+        Task RemoveAsync(string eventName);
 
     }
 }
