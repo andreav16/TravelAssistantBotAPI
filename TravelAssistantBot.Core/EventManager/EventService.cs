@@ -85,6 +85,7 @@ namespace TravelAssistantBot.Core.EventManager
             return items.ToList();
         }
 
+
         public async Task<OperationResult<Event>> GetEventByNameAsync(string eventName)
         {
             IList<Event> items = GetAllAsync().Result.Result;
@@ -98,7 +99,6 @@ namespace TravelAssistantBot.Core.EventManager
                 return new Event();
         }
 
-
         public async Task RemoveAsync(string eventName)
         {
             UserCredential credential = GetCredentialsAsync().Result;
@@ -110,7 +110,7 @@ namespace TravelAssistantBot.Core.EventManager
                 ApplicationName = "VirtualAssistant"
             });
 
-            
+
             string eventId = GetEventByNameAsync(eventName).Result.Result.Id;
 
             // Borrar el evento del calendario

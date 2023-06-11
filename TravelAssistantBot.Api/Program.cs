@@ -1,5 +1,7 @@
 using TravelAssistantBot.Core;
+using TravelAssistantBot.Core.ConversationalLanguageInterpreter;
 using TravelAssistantBot.Core.EventManager;
+using TravelAssistantBot.Core.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 var allowAllOriginsPolicy = "_allowAllOriginsPolicy";
@@ -8,8 +10,6 @@ var allowAllOriginsPolicy = "_allowAllOriginsPolicy";
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<IEventService, EventService>();
-builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: allowAllOriginsPolicy,
@@ -18,10 +18,16 @@ builder.Services.AddCors(options =>
                           policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
                       });
 });
+builder.Services.AddScoped<IEventService, EventService>();
+builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.Configure<LanguageInterpreterOptions>(builder.Configuration.GetSection(LanguageInterpreterOptions.ConfigurationKey));
+builder.Services.AddHttpClient<ILanguageInterpreter, LanguageInterpreter>();
+
 
 builder.Services.AddControllers();
 
 var app = builder.Build();
+app.UseCors(allowAllOriginsPolicy);
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -29,7 +35,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseCors(allowAllOriginsPolicy);
 
 app.UseHttpsRedirection();
 
