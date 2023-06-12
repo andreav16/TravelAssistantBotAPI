@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -14,19 +15,22 @@ namespace TravelAssistantBot.Core.GeopifyManager
 {
     public class GeopifyService : IGeopifyServices
     {
-        // Configuración de la API de Geoapify Places
-        string apiKey_PLACES_API = "b50871dd5acb475ca6a8e969f6679626";
-        string baseUrl_PLACES_API = "https://api.geoapify.com/v2/places";
 
-        // Configuracion de la API de Geopify Geocode
-        string apiKey_GEOCODE_API = "396ffeb46b7948a599f3faad332d71d9";
-        string baseUrl_GEOCODE_API = "https://api.geoapify.com/v1/geocode/search";
+        private readonly GeopifyOptions_Places geopifyOptionsPlaces;
+        private readonly GeopifyOptions_Geocode geopifyOptionsGeocode;
 
+        public GeopifyService(IOptions<GeopifyOptions_Places> optionsPlaces, IOptions<GeopifyOptions_Geocode> optionsGeocode)
+        {
+            geopifyOptionsPlaces = optionsPlaces.Value;
+            geopifyOptionsGeocode = optionsGeocode.Value;
+        }
+
+        
 
         public async Task<OperationResult<GeocodeGroup>> GetCountryAsync(string cityName)
         {
             HttpClient httpClient = new HttpClient();
-            string requestUrl = $"{baseUrl_GEOCODE_API}?apiKey={apiKey_GEOCODE_API}&text={cityName}";
+            string requestUrl = $"{geopifyOptionsGeocode.BaseUrl}?apiKey={geopifyOptionsGeocode.ApiKey}&text={cityName}";
 
             HttpResponseMessage response = await httpClient.GetAsync(requestUrl);
 
@@ -51,11 +55,11 @@ namespace TravelAssistantBot.Core.GeopifyManager
 
             if (cant > 0)
             {
-                requestUrl = $"{baseUrl_PLACES_API}?categories={placeCategory}&filter={countryId}&lang=en&apiKey={apiKey_PLACES_API}&limit={cant}";
+                requestUrl = $"{geopifyOptionsPlaces.BaseUrl}?categories={placeCategory}&filter={countryId}&lang=en&apiKey={geopifyOptionsPlaces.ApiKey}&limit={cant}";
             }
             else if (cant == -1)
             {
-                requestUrl = $"{baseUrl_PLACES_API}?categories={placeCategory}&filter={countryId}&lang=en&apiKey={apiKey_PLACES_API}";
+                requestUrl = $"{geopifyOptionsPlaces.BaseUrl}?categories={placeCategory}&filter={countryId}&lang=en&apiKey={geopifyOptionsPlaces.ApiKey}";
             }
 
             HttpResponseMessage response = await httpClient.GetAsync(requestUrl);

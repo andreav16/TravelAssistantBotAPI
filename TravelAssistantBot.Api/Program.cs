@@ -10,6 +10,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IEventService, EventService>();
 builder.Services.AddScoped<IGeopifyServices, GeopifyService>();
+builder.Services.Configure<GeopifyOptions_Geocode>(builder.Configuration.GetSection("Geopify_GeocodeAPI"));
+builder.Services.Configure<GeopifyOptions_Places>(builder.Configuration.GetSection("Geopify_PlacesAPI"));
 builder.Services.AddAutoMapper(typeof(Program));
 
 

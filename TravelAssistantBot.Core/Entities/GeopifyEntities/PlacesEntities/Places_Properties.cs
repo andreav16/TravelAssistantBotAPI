@@ -12,6 +12,5 @@ namespace TravelAssistantBot.Core.Entities.GeopifyEntities.PlacesEntities
         public double Lon { get; set; }
         public double Lat { get; set; }
         public string Formatted { get; set; }
-        public string Postalcode { get; set; }
     }
 }
