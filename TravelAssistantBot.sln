@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TravelAssistantBot.Api", "T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TravelAssistantBot.Core", "TravelAssistantBot.Core\TravelAssistantBot.Core.csproj", "{AFE95457-D905-473E-B9E1-1478550569B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelAssistantBot.Infrastructure.EntityFramework", "TravelAssistantBot.Infrastructure.EntityFramework\TravelAssistantBot.Infrastructure.EntityFramework.csproj", "{789EFE62-DA96-4CCC-920E-664FF53C3F8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TravelAssistantBot.Infrastructure.EntityFramework", "TravelAssistantBot.Infrastructure.EntityFramework\TravelAssistantBot.Infrastructure.EntityFramework.csproj", "{789EFE62-DA96-4CCC-920E-664FF53C3F8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelAssistantBot.Infrastructure", "TravelAssistantBot.Infrastructure\TravelAssistantBot.Infrastructure.csproj", "{C323937C-3C02-4B79-AA6B-01A740DB0639}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TravelAssistantBot.Infrastructure", "TravelAssistantBot.Infrastructure\TravelAssistantBot.Infrastructure.csproj", "{C323937C-3C02-4B79-AA6B-01A740DB0639}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

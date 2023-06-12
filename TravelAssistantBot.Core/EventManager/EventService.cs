@@ -85,7 +85,21 @@ namespace TravelAssistantBot.Core.EventManager
             return items.ToList();
         }
 
-        public async Task RemoveAsync(string eventId)
+
+        public async Task<OperationResult<Event>> GetEventByNameAsync(string eventName)
+        {
+            IList<Event> items = GetAllAsync().Result.Result;
+
+            // Buscar evento por nombre
+            Event foundEvent = items.FirstOrDefault(e => e.Summary == eventName);
+            if (foundEvent != null)
+
+                return foundEvent;
+            else
+                return new Event();
+        }
+
+        public async Task RemoveAsync(string eventName)
         {
             UserCredential credential = GetCredentialsAsync().Result;
 
@@ -95,6 +109,9 @@ namespace TravelAssistantBot.Core.EventManager
                 HttpClientInitializer = credential,
                 ApplicationName = "VirtualAssistant"
             });
+
+
+            string eventId = GetEventByNameAsync(eventName).Result.Result.Id;
 
             // Borrar el evento del calendario
             EventsResource.DeleteRequest request = service.Events.Delete("primary", eventId);
