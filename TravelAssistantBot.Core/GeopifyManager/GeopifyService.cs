@@ -25,7 +25,6 @@ namespace TravelAssistantBot.Core.GeopifyManager
             geopifyOptionsGeocode = optionsGeocode.Value;
         }
 
-        
 
         public async Task<OperationResult<GeocodeGroup>> GetCountryAsync(string cityName)
         {
