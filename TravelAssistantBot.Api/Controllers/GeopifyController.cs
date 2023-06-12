@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using TravelAssistantBot.Api.DataTransferObjects.GeopifyDataTransferObjects;
 using TravelAssistantBot.Core.EventManager;
 using TravelAssistantBot.Core.GeopifyManager;
 
@@ -25,29 +24,18 @@ namespace TravelAssistantBot.Api.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetCountryIdAsync([FromRoute] string cityname)
         {
-            Console.WriteLine(cityname);
-
             var result = await this.geopifyService.GetCountryAsync(cityname);
-            var geocode = this.mapper.Map<CountryIdDataTransferObjects>(result.Result.Features[0].Properties.Place_id);
-            //Console.WriteLine(result.Result.Features[0].Properties.Place_id);
-            return result.Succeeded ? Ok(result.Result.Features[0].Properties.Place_id) : BadRequest(geocode);
+            return result.Succeeded ? Ok(result.Result.Features[0].Properties.Place_id) : BadRequest(result.Result);
         }
 
         [HttpGet("{placeCategory}/{countryId}/{cantDatos}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<IActionResult> GetPlacesByCategoriesAsync(string placeCategory, string countryId, int cantDatos)
+        public async Task<IActionResult> GetPlacesByCategoriesAsync([FromRoute] string placeCategory, [FromRoute] string countryId, [FromRoute] int cantDatos)
         {
             var result = await this.geopifyService.GetPlacesDataAsync(countryId, placeCategory, cantDatos);
-            if(result.Succeeded)
-            {
-                return Ok(result.Result);
-            }
-            else
-            {
-                return BadRequest(result.Result);
-            }
+            return result.Succeeded ? Ok(result.Result) : BadRequest(result.Result);
         }
 
 
