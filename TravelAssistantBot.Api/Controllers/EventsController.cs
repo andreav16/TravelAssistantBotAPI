@@ -23,7 +23,7 @@ namespace TravelAssistantBot.Api.Controllers
 
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]                     
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> AddEventAsync(AddEventDataTransferObject eventToAdd)
         {
