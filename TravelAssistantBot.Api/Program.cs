@@ -2,6 +2,7 @@ using TravelAssistantBot.Core;
 using TravelAssistantBot.Core.ConversationalLanguageInterpreter;
 using TravelAssistantBot.Core.EventManager;
 using TravelAssistantBot.Core.Options;
+using TravelAssistantBot.Core.GeopifyManager;
 
 var builder = WebApplication.CreateBuilder(args);
 var allowAllOriginsPolicy = "_allowAllOriginsPolicy";
@@ -19,6 +20,9 @@ builder.Services.AddCors(options =>
                       });
 });
 builder.Services.AddScoped<IEventService, EventService>();
+builder.Services.AddScoped<IGeopifyServices, GeopifyService>();
+builder.Services.Configure<GeopifyOptions_Geocode>(builder.Configuration.GetSection("Geopify_GeocodeAPI"));
+builder.Services.Configure<GeopifyOptions_Places>(builder.Configuration.GetSection("Geopify_PlacesAPI"));
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.Configure<LanguageInterpreterOptions>(builder.Configuration.GetSection(LanguageInterpreterOptions.ConfigurationKey));
 builder.Services.AddHttpClient<ILanguageInterpreter, LanguageInterpreter>();
