@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TravelAssistantBot.Core.Entities.FlightEntities
+namespace TravelAssistantBot.Core.Entities.FlightEntities.FileData
 {
     public class FlightData
     {

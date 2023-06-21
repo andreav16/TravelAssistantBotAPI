@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using TravelAssistantBot.Core.Entities.FlightEntities;
+using TravelAssistantBot.Core.Entities.FlightEntities.FileData;
 using TravelAssistantBot.Core.Interfaces;
 using TravelAssistantBot.Infrastructure.Deserializer;
 using TravelAssistantBot.Infrastructure.EntityFramework.Configuration;
