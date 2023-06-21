@@ -11,7 +11,6 @@ namespace TravelAssistantBot.Core.Entities.FlightEntities
         public int Id { get; set; }
         public string Name { get; set; }
         public string IATA { get; set; }
-        public string ICAO { get; set; }
 
         public int FlightId { get; set; }
         public Flight Flight { get; set; }
