@@ -9,7 +9,7 @@ namespace TravelAssistantBot.Core.Entities.FlightEntities
     public class Flight
     {
         public int Id { get; set; }
-        public DateTime FlightDate { get; set; }
+        public DateTime? FlightDate { get; set; }
         public string FlightStatus { get; set; }
 
         public int DepartureId { get; set; }

@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using TravelAssistantBot.Core.Entities.FlightEntities;
+using TravelAssistantBot.Core.Interfaces;
+using TravelAssistantBot.Infrastructure.Deserializer;
 using TravelAssistantBot.Infrastructure.EntityFramework.Configuration;
 using TravelAssistantBot.Infrastructure.EntityFramework.Configuration.FlightConfiguration;
 
@@ -8,13 +10,6 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework
 {
     public class TravelAssistantBotContext : DbContext
     {
-        List<FlightData> flightDataList;
-        public TravelAssistantBotContext(DbContextOptions<TravelAssistantBotContext> options) : base(options)
-        {
-            string json = File.ReadAllText("../aviation-data.json");
-            this.flightDataList = JsonConvert.DeserializeObject<List<FlightData>>(json);
-        }
-
         public DbSet<Flight> Flights { get; set; }
         public DbSet<Departure> Departures { get; set; }
         public DbSet<Arrival> Arrivals { get; set; }
@@ -25,6 +20,10 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            FlightJsonDeserializer deserializer = new FlightJsonDeserializer();
+            var deserializeResponse = deserializer.Deserialize("../../../TravelAssistantBot.Infrastructure.EntityFramework/aviation-data.json");
+            List<FlightData> flightDataList = deserializeResponse.Data;
+
             modelBuilder.ApplyConfiguration(new FlightEntityConfiguration());
             modelBuilder.ApplyConfiguration(new DepartureEntityConfiguration());
             modelBuilder.ApplyConfiguration(new ArrivalEntityConfiguration());
@@ -35,7 +34,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework
             foreach (var flightData in flightDataList)
             {
                 modelBuilder.Entity<Flight>().HasData(new Flight
-                {                   
+                {
                     Departure = new Departure
                     {
                         Airport = flightData.Departure.Airport,

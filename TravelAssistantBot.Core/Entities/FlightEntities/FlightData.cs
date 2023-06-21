@@ -8,7 +8,7 @@ namespace TravelAssistantBot.Core.Entities.FlightEntities
 {
     public class FlightData
     {
-        public DateTime FlightDate { get; set; }
+        public DateTime? FlightDate { get; set; }
         public string FlightStatus { get; set; }
         public DepartureData Departure { get; set; }
         public ArrivalData Arrival { get; set; }
@@ -27,11 +27,11 @@ namespace TravelAssistantBot.Core.Entities.FlightEntities
         public string Terminal { get; set; }
         public string Gate { get; set; }
         public string Delay { get; set; }
-        public DateTime Scheduled { get; set; }
-        public DateTime Estimated { get; set; }
-        public DateTime Actual { get; set; }
-        public DateTime EstimatedRunway { get; set; }
-        public DateTime ActualRunway { get; set; }
+        public DateTime? Scheduled { get; set; }
+        public DateTime? Estimated { get; set; }
+        public DateTime? Actual { get; set; }
+        public DateTime? EstimatedRunway { get; set; }
+        public DateTime? ActualRunway { get; set; }
     }
 
     public class ArrivalData
@@ -44,11 +44,11 @@ namespace TravelAssistantBot.Core.Entities.FlightEntities
         public string Gate { get; set; }
         public string Baggage { get; set; }
         public string Delay { get; set; }
-        public DateTime Scheduled { get; set; }
-        public DateTime Estimated { get; set; }
-        public DateTime Actual { get; set; }
-        public DateTime EstimatedRunway { get; set; }
-        public DateTime ActualRunway { get; set; }
+        public DateTime? Scheduled { get; set; }
+        public DateTime? Estimated { get; set; }
+        public DateTime? Actual { get; set; }
+        public DateTime? EstimatedRunway { get; set; }
+        public DateTime? ActualRunway { get; set; }
     }
 
     public class AirlineData

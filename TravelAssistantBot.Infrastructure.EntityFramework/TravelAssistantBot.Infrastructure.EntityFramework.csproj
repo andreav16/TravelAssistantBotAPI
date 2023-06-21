@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TravelAssistantBot.Core\TravelAssistantBot.Core.csproj" />
+    <ProjectReference Include="..\TravelAssistantBot.Infrastructure\TravelAssistantBot.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
