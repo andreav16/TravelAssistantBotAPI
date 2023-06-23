@@ -38,8 +38,8 @@ namespace TravelAssistantBot.Core.FlightManager
 
             // Filtrar los vuelos por lugar de partida y destino
             var flights = flightRepository.Filter(f =>
-                f.Departure.Airport.Equals(from, StringComparison.OrdinalIgnoreCase) &&
-                f.Arrival.Airport.Equals(to, StringComparison.OrdinalIgnoreCase));
+                f.Departure.IATA.Equals(from, StringComparison.OrdinalIgnoreCase) &&
+                f.Arrival.IATA.Equals(to, StringComparison.OrdinalIgnoreCase));
 
             if (!flights.Any())
             {
@@ -52,5 +52,31 @@ namespace TravelAssistantBot.Core.FlightManager
 
             return new OperationResult<List<Flight>>(flights.ToList());
         }
+
+        public async Task<OperationResult<Flight>> GetFlightByFlightCodeAsync(string flightCode)
+        {
+            if (string.IsNullOrEmpty(flightCode))
+            {
+                return new OperationResult<Flight>(new Error
+                {
+                    Code = ErrorCode.InternalError,
+                    Message = "Flight code cannot be null or empty."
+                });
+            }
+
+            var flight = flightRepository.Filter(f => f.FlightInfo.IATA == flightCode).FirstOrDefault();
+
+            if (flight == null)
+            {
+                return new OperationResult<Flight>(new Error
+                {
+                    Code = ErrorCode.NotFound,
+                    Message = "No flights found for the provided IATA."
+                });
+            }
+
+            return new OperationResult<Flight>(flight);
+        }
+
     }
 }
