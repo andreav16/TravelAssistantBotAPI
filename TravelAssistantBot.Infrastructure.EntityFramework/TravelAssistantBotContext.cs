@@ -19,7 +19,6 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework
         public DbSet<Arrival> Arrivals { get; set; }
         public DbSet<Airline> Airlines { get; set; }
         public DbSet<FlightInfo> FlightInfos { get; set; }
-        public DbSet<CodeShare> CodeShares { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -35,7 +34,6 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework
             modelBuilder.ApplyConfiguration(new ArrivalEntityConfiguration());
             modelBuilder.ApplyConfiguration(new AirlineEntityConfiguration());
             modelBuilder.ApplyConfiguration(new FlightInfoEntityConfiguration());
-            //modelBuilder.ApplyConfiguration(new CodeShareEntityConfiguration());
 
             var id = 1;
             foreach (var flightData in flightDataList)
@@ -83,25 +81,11 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework
 
                 modelBuilder.Entity<Airline>().HasData(airline);
 
-                //var codeShare = new CodeShare
-                //{
-                //    Id = id,
-                //    AirlineName = flightData.Flight.CodeShare.AirlineName ?? "",
-                //    AirlineIATA = flightData.Flight.CodeShare.AirlineIATA ?? "",
-                //    FlightNumber = flightData.Flight.CodeShare.FlightNumber ?? "",
-                //    FlightIATA = flightData.Flight.CodeShare.FlightIATA ?? "",
-                //    FlighInfoId = id,
-                //};
-
-                //modelBuilder.Entity<CodeShare>().HasData(codeShare);
-
                 var flightInfo = new FlightInfo
                 {
                     Id = id,
                     Number = flightData.Flight.Number,
                     IATA = flightData.Flight.IATA,
-                    //CodeShareId = id,
-                    //CodeShare = codeShare,
                     FlightId = id,
 
                 };
