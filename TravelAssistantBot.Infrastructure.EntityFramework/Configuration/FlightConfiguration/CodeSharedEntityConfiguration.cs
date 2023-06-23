@@ -16,9 +16,9 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Configuration.Flight
             builder.Property(x => x.FlightNumber).IsRequired();
             builder.Property(x => x.FlightIATA).IsRequired();
 
-            builder.HasOne(x => x.FlightInfo)
-                .WithOne(x => x.CodeShare)
-                .HasForeignKey<FlightInfo>(x => x.CodeShareId);
+            //builder.HasOne(x => x.FlightInfo)
+            //    .WithOne(x => x.CodeShare)
+            //    .HasForeignKey<FlightInfo>(x => x.CodeShareId);
         }
     }
 }

@@ -20,7 +20,8 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Configuration.Flight
 
             builder.HasOne(x => x.Flight)
                 .WithOne(x => x.FlightInfo)
-                .HasForeignKey<Flight>(x => x.AirlineId);
+                .HasForeignKey<Flight>(x => x.FlightInfoId);
         }
+
     }
 }

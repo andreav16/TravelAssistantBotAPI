@@ -17,7 +17,6 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Configuration.Flight
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Airport).IsRequired();
             builder.Property(x => x.IATA).IsRequired();
-            builder.Property(x => x.Terminal).IsRequired();
             builder.Property(x => x.Scheduled).IsRequired();
             builder.Property(x => x.Estimated).IsRequired();
 

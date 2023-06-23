@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 using TravelAssistantBot.Core.Entities.FlightEntities;
 
 namespace TravelAssistantBot.Core.FlightManager
@@ -16,7 +15,7 @@ namespace TravelAssistantBot.Core.FlightManager
             this.flightRepository = flightRepository;
         }
 
-        public async Task<OperationResult<List<Flight>>> GetFlightsByDepartureAndArrivalAsync(string from, string to)
+        public async Task<OperationResult<List<Flight>>> GetFlightsByDepartureAndArrivalAsync(string from, string to, DateTime date)
         {
             if (string.IsNullOrEmpty(from))
             {
@@ -38,8 +37,9 @@ namespace TravelAssistantBot.Core.FlightManager
 
             // Filtrar los vuelos por lugar de partida y destino
             var flights = flightRepository.Filter(f =>
-                f.Departure.IATA.Equals(from, StringComparison.OrdinalIgnoreCase) &&
-                f.Arrival.IATA.Equals(to, StringComparison.OrdinalIgnoreCase));
+                f.Departure.Airport.StartsWith(from, StringComparison.OrdinalIgnoreCase) &&
+                f.Arrival.Airport.StartsWith(to, StringComparison.OrdinalIgnoreCase) &&
+                f.FlightDate.Equals(date));
 
             if (!flights.Any())
             {

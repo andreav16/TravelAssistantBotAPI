@@ -11,11 +11,11 @@ namespace TravelAssistantBot.Core.Entities.FlightEntities
         public int Id { get; set; }
         public string Airport { get; set; }
         public string IATA { get; set; }
-        public string Terminal { get; set; }
-        public string Gate { get; set; }
-        public string Delay { get; set; }
-        public DateTime? Scheduled { get; set; }
-        public DateTime? Estimated { get; set; }
+        public string? Terminal { get; set; }
+        public string? Gate { get; set; }
+        public string? Delay { get; set; }
+        public DateTime Scheduled { get; set; }
+        public DateTime Estimated { get; set; }
         public DateTime? Actual { get; set; }
        
         public int FlightId { get; set; }
