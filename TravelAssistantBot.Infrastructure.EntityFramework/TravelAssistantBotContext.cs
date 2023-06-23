@@ -85,7 +85,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework
                 {
                     Id = id,
                     Number = flightData.Flight.Number,
-                    IATA = flightData.Flight.IATA,
+                    IATA = flightData.Flight.IATA ?? "",
                     FlightId = id,
 
                 };
@@ -97,22 +97,13 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework
                     Id = id,
                     FlightDate = flightData.FlightDate,
                     FlightStatus = flightData.FlightStatus ?? "",
-                    
+
                     DepartureId = departure.Id,
-                    Departure = departure,
-
                     ArrivalId = arrival.Id,
-                    Arrival = arrival,
-
                     AirlineId = airline.Id,
-                    Airline = airline,
-
                     FlightInfoId = flightInfo.Id,
-                    FlightInfo = flightInfo,
-
                     Aircraft = flightData.Aircraft ?? "",
                     Live = flightData.Live ?? "",
-
                 };
 
                 id++;

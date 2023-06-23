@@ -23,4 +23,8 @@
     <ProjectReference Include="..\TravelAssistantBot.Infrastructure\TravelAssistantBot.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

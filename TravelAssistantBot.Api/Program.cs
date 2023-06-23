@@ -13,7 +13,7 @@ var allowAllOriginsPolicy = "_allowAllOriginsPolicy";
 
 // Add services to the container
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddDbContext<TravelAssistantBotContext>(options => options.UseSqlite("DataSource=Tflights_info.db"));
+builder.Services.AddDbContext<TravelAssistantBotContext>(options => options.UseSqlite("DataSource=flights_info.db"));
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IEventService, EventService>();

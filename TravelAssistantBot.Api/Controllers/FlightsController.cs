@@ -18,7 +18,7 @@ namespace TravelAssistantBot.Api.Controllers
             this.mapper = mapper;
         }
 
-        [HttpGet("byFlightCode/{flightCode}")]
+        [HttpGet("{flightCode}")]
         public async Task<IActionResult> GetFlightByFlightCodeAsync([FromRoute] string flightCode)
         {
             var result = await flightService.GetFlightByFlightCodeAsync(flightCode);
@@ -26,7 +26,7 @@ namespace TravelAssistantBot.Api.Controllers
             return result.Succeeded ? Ok(flight) : GetErrorResult(result);
         }
 
-        [HttpGet("byDepartureAndArrival")]
+        [HttpGet("")]
         public async Task<IActionResult> GetFlightsByDepartureAndArrivalAsync([FromQuery] string from, [FromQuery] string to, [FromQuery] DateTime date)
         {
             var result = await flightService.GetFlightsByDepartureAndArrivalAsync(from, to, date);
