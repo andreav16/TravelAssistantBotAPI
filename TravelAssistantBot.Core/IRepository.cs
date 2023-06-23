@@ -1,4 +1,6 @@
-﻿namespace TravelAssistantBot.Core;
+﻿using System.Collections.Generic;
+
+namespace TravelAssistantBot.Core;
 public interface IRepository<TEntity>
     where TEntity : class
 {
