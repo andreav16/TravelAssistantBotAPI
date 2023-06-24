@@ -1,0 +1,54 @@
+{
+  "codes": [
+    {
+      "city": "New York",
+      "code": "JFK",
+      "country": "United States"
+    },
+    {
+      "city": "London",
+      "code": "LHR",
+      "country": "United Kingdom"
+    },
+    {
+      "city": "Paris",
+      "code": "CDG",
+      "country": "France"
+    },
+    {
+      "city": "Tokyo",
+      "code": "NRT",
+      "country": "Japan"
+    },
+    {
+      "city": "San Pedro Sula",
+      "code": "SAP",
+      "country": "Honduras"
+    },
+    {
+      "city": "Ciudad de Mexico",
+      "code": "MEX",
+      "country": "Mexico"
+    },
+    {
+      "city": "Boston",
+      "code": "Bos",
+      "country": "Boston"
+    },
+    {
+      "city": "Panama",
+      "code": "PTY",
+      "country": "Panama"
+    },
+    {
+      "city": "El Salvador",
+      "code": "SAL",
+      "country": "El Salvador"
+    },
+    {
+      "city": "Miami  ",
+      "code": "MIA",
+      "country": "Miami"
+    }
+
+}
