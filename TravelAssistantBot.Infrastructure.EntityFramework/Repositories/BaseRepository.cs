@@ -2,11 +2,12 @@
 using Microsoft.EntityFrameworkCore;
 using TravelAssistantBot.Core;
 using System.Linq;
+using System.Linq.Expressions;
 
 namespace TravelAssistantBot.Infrastructure.EntityFramework.Repositories
 {
     public class BaseRepository<TEntity> : IRepository<TEntity>
-        where TEntity : class
+    where TEntity : class
     {
         private readonly TravelAssistantBotContext context;
 
@@ -52,10 +53,23 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Repositories
             return result.Entity;
         }
 
-        TEntity IRepository<TEntity>.Delete(TEntity entity)
+        public TEntity Delete(TEntity entity)
         {
             var result = context.Remove(entity);
             return result.Entity;
         }
+
+        public IQueryable<TEntity> GetQueryable(params Expression<Func<TEntity, object>>[] includes)
+        {
+            var query = context.Set<TEntity>().AsQueryable();
+
+            foreach (var include in includes)
+            {
+                query = query.Include(include);
+            }
+
+            return query;
+        }
     }
+
 }

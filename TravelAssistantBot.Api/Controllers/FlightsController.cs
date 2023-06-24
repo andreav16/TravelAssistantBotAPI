@@ -26,10 +26,10 @@ namespace TravelAssistantBot.Api.Controllers
             return result.Succeeded ? Ok(flight) : GetErrorResult(result);
         }
 
-        [HttpGet("")]
-        public async Task<IActionResult> GetFlightsByDepartureAndArrivalAsync([FromQuery] string from, [FromQuery] string to, [FromQuery] DateTime date)
+        [HttpGet("{from}/{to}")]
+        public async Task<IActionResult> GetFlightsByDepartureAndArrivalAsync([FromRoute] string from, [FromRoute] string to)
         {
-            var result = await flightService.GetFlightsByDepartureAndArrivalAsync(from, to, date);
+            var result = await flightService.GetFlightsByDepartureAndArrivalAsync(from, to);
             var flight = mapper.Map<List<FlightDetailsDataTransferObject>>(result.Result);
             return result.Succeeded ?  Ok(flight) : GetErrorResult(result);
         }
