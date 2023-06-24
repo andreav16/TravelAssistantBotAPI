@@ -738,6 +738,55 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             FlightId = 100,
                             IATA = "PK",
                             Name = "Pakistan International Airlines"
+                        },
+                        new
+                        {
+                            Id = 101,
+                            FlightId = 101,
+                            IATA = "AA",
+                            Name = "American Airlines"
+                        },
+                        new
+                        {
+                            Id = 102,
+                            FlightId = 102,
+                            IATA = "5D",
+                            Name = "AeroMexico Connect"
+                        },
+                        new
+                        {
+                            Id = 103,
+                            FlightId = 103,
+                            IATA = "CM",
+                            Name = "Copa Airlines"
+                        },
+                        new
+                        {
+                            Id = 104,
+                            FlightId = 104,
+                            IATA = "AV",
+                            Name = "SA AVIANCA"
+                        },
+                        new
+                        {
+                            Id = 105,
+                            FlightId = 105,
+                            IATA = "NK",
+                            Name = "Spirit Airlines"
+                        },
+                        new
+                        {
+                            Id = 106,
+                            FlightId = 106,
+                            IATA = "AA",
+                            Name = "American Airlines"
+                        },
+                        new
+                        {
+                            Id = 107,
+                            FlightId = 107,
+                            IATA = "AF",
+                            Name = "Air France"
                         });
                 });
 
@@ -784,7 +833,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 1,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(8585),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(1381),
                             Airport = "Kuching",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 30, 0, 0, DateTimeKind.Local),
@@ -797,7 +846,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 2,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(8654),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(1533),
                             Airport = "Kuching",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 25, 0, 0, DateTimeKind.Local),
@@ -810,7 +859,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 3,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(8724),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(1592),
                             Airport = "Mulu,",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 35, 0, 0, DateTimeKind.Local),
@@ -823,7 +872,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 4,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(8762),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(1646),
                             Airport = "Mukah",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 50, 0, 0, DateTimeKind.Local),
@@ -836,7 +885,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 5,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(8889),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(1703),
                             Airport = "Singapore Changi",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 5, 0, 0, DateTimeKind.Local),
@@ -849,7 +898,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 6,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(8926),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(1763),
                             Airport = "Singapore Changi",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 5, 0, 0, DateTimeKind.Local),
@@ -862,7 +911,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 7,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(8960),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(1887),
                             Airport = "Singapore Changi",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 5, 0, 0, DateTimeKind.Local),
@@ -875,7 +924,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 8,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9020),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(1947),
                             Airport = "Bintulu",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 35, 0, 0, DateTimeKind.Local),
@@ -888,7 +937,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 9,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9053),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2007),
                             Airport = "Kuala Lumpur International Airport (klia)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 5, 0, 0, DateTimeKind.Local),
@@ -901,7 +950,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 10,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9090),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2069),
                             Airport = "Indira Gandhi International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 25, 0, 0, DateTimeKind.Local),
@@ -914,7 +963,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 11,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9124),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2123),
                             Airport = "Indira Gandhi International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 25, 0, 0, DateTimeKind.Local),
@@ -927,7 +976,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 12,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9183),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2257),
                             Airport = "Indira Gandhi International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 25, 0, 0, DateTimeKind.Local),
@@ -940,7 +989,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 13,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9217),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2312),
                             Airport = "Kashi",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 5, 0, 0, DateTimeKind.Local),
@@ -953,7 +1002,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 14,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9248),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2363),
                             Airport = "Kashi",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 5, 0, 0, DateTimeKind.Local),
@@ -966,7 +1015,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 15,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9282),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2418),
                             Airport = "Kashi",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 5, 0, 0, DateTimeKind.Local),
@@ -979,7 +1028,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 16,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9314),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2474),
                             Airport = "Kashi",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 5, 0, 0, DateTimeKind.Local),
@@ -992,7 +1041,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 17,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9348),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2591),
                             Airport = "Suvarnabhumi International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 55, 0, 0, DateTimeKind.Local),
@@ -1005,7 +1054,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 18,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9411),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2654),
                             Airport = "Suvarnabhumi International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 55, 0, 0, DateTimeKind.Local),
@@ -1018,7 +1067,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 19,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9444),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2709),
                             Airport = "Suvarnabhumi International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 40, 0, 0, DateTimeKind.Local),
@@ -1031,7 +1080,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 20,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9475),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2766),
                             Airport = "Kuala Lumpur International Airport (klia)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 20, 0, 0, DateTimeKind.Local),
@@ -1044,7 +1093,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 21,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9508),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2819),
                             Airport = "Kuala Lumpur International Airport (klia)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 20, 0, 0, DateTimeKind.Local),
@@ -1057,7 +1106,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 22,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9565),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2975),
                             Airport = "Kuala Lumpur International Airport (klia)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 20, 0, 0, DateTimeKind.Local),
@@ -1070,7 +1119,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 23,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9600),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3034),
                             Airport = "Kuala Lumpur International Airport (klia)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 20, 0, 0, DateTimeKind.Local),
@@ -1083,7 +1132,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 24,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9633),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3089),
                             Airport = "Kuala Lumpur International Airport (klia)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 20, 0, 0, DateTimeKind.Local),
@@ -1096,7 +1145,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 25,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9667),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3142),
                             Airport = "Kuala Lumpur International Airport (klia)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 20, 0, 0, DateTimeKind.Local),
@@ -1109,7 +1158,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 26,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9701),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3201),
                             Airport = "Istanbul Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 5, 0, 0, DateTimeKind.Local),
@@ -1122,7 +1171,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 27,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9732),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3318),
                             Airport = "Sheremetyevo International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 45, 0, 0, DateTimeKind.Local),
@@ -1135,7 +1184,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 28,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9801),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3418),
                             Airport = "Irkutsk",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 15, 0, 0, DateTimeKind.Local),
@@ -1148,7 +1197,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 29,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9833),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3472),
                             Airport = "Domodedovo",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 40, 0, 0, DateTimeKind.Local),
@@ -1161,7 +1210,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 30,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9865),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3525),
                             Airport = "Domodedovo",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 40, 0, 0, DateTimeKind.Local),
@@ -1174,7 +1223,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 31,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9897),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3579),
                             Airport = "Domodedovo",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 40, 0, 0, DateTimeKind.Local),
@@ -1187,7 +1236,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 32,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9930),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3631),
                             Airport = "Niigata",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 7, 20, 0, 0, DateTimeKind.Local),
@@ -1200,7 +1249,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 33,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9988),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3736),
                             Airport = "Gimpo Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 7, 40, 0, 0, DateTimeKind.Local),
@@ -1213,7 +1262,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 34,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(23),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3798),
                             Airport = "Gimpo Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 7, 40, 0, 0, DateTimeKind.Local),
@@ -1226,7 +1275,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 35,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(56),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3856),
                             Airport = "Seoul (Incheon)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 7, 50, 0, 0, DateTimeKind.Local),
@@ -1239,7 +1288,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 36,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(110),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4019),
                             Airport = "Suvarnabhumi International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 9, 35, 0, 0, DateTimeKind.Local),
@@ -1252,7 +1301,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 37,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(146),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4112),
                             Airport = "Suvarnabhumi International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 9, 35, 0, 0, DateTimeKind.Local),
@@ -1265,7 +1314,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 38,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(179),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4207),
                             Airport = "Chitose",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 7, 30, 0, 0, DateTimeKind.Local),
@@ -1278,7 +1327,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 39,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(211),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4282),
                             Airport = "Gimpo Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 7, 15, 0, 0, DateTimeKind.Local),
@@ -1291,7 +1340,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 40,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(240),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4338),
                             Airport = "Gimpo Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 7, 15, 0, 0, DateTimeKind.Local),
@@ -1304,7 +1353,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 41,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(273),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4392),
                             Airport = "Seoul (Incheon)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 7, 25, 0, 0, DateTimeKind.Local),
@@ -1317,7 +1366,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 42,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(329),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4515),
                             Airport = "Seoul (Incheon)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 7, 25, 0, 0, DateTimeKind.Local),
@@ -1330,7 +1379,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 43,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(362),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4580),
                             Airport = "Kaoshiung International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 7, 40, 0, 0, DateTimeKind.Local),
@@ -1343,7 +1392,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 44,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(394),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4635),
                             Airport = "Taiwan Taoyuan International (Chiang Kai Shek International)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 7, 5, 0, 0, DateTimeKind.Local),
@@ -1356,7 +1405,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 45,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(427),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4688),
                             Airport = "Taiwan Taoyuan International (Chiang Kai Shek International)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 7, 5, 0, 0, DateTimeKind.Local),
@@ -1369,7 +1418,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 46,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(461),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4899),
                             Airport = "Taiwan Taoyuan International (Chiang Kai Shek International)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 7, 5, 0, 0, DateTimeKind.Local),
@@ -1382,7 +1431,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 47,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(518),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5030),
                             Airport = "Taiwan Taoyuan International (Chiang Kai Shek International)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 7, 5, 0, 0, DateTimeKind.Local),
@@ -1395,7 +1444,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 48,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(552),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5087),
                             Airport = "Zvartnots International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 0, 0, 0, DateTimeKind.Local),
@@ -1408,7 +1457,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 49,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(585),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5141),
                             Airport = "Zvartnots International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 0, 0, 0, DateTimeKind.Local),
@@ -1421,7 +1470,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 50,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(619),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5196),
                             Airport = "Henri Coanda International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 0, 40, 0, 0, DateTimeKind.Local),
@@ -1434,7 +1483,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 51,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(651),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5249),
                             Airport = "Henri Coanda International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 0, 40, 0, 0, DateTimeKind.Local),
@@ -1447,7 +1496,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 52,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(687),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5364),
                             Airport = "Itami",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 7, 5, 0, 0, DateTimeKind.Local),
@@ -1460,7 +1509,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 53,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(748),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5419),
                             Airport = "Naha",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 8, 35, 0, 0, DateTimeKind.Local),
@@ -1473,7 +1522,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 54,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(780),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5473),
                             Airport = "Chitose",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 20, 0, 0, DateTimeKind.Local),
@@ -1486,7 +1535,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 55,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(832),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5550),
                             Airport = "Chitose",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 20, 0, 0, DateTimeKind.Local),
@@ -1499,7 +1548,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 56,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(882),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5603),
                             Airport = "Bamrauli",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 55, 0, 0, DateTimeKind.Local),
@@ -1512,7 +1561,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 57,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(912),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5659),
                             Airport = "Patna",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 55, 0, 0, DateTimeKind.Local),
@@ -1525,7 +1574,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 58,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(969),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5764),
                             Airport = "Patna",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 55, 0, 0, DateTimeKind.Local),
@@ -1538,7 +1587,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 59,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1000),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5818),
                             Airport = "Chhatrapati Shivaji International (Sahar International)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 10, 0, 0, DateTimeKind.Local),
@@ -1551,7 +1600,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 60,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1033),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5871),
                             Airport = "Chhatrapati Shivaji International (Sahar International)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 10, 0, 0, DateTimeKind.Local),
@@ -1564,7 +1613,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 61,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1064),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5925),
                             Airport = "Chhatrapati Shivaji International (Sahar International)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 10, 0, 0, DateTimeKind.Local),
@@ -1577,7 +1626,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 62,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1098),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5977),
                             Airport = "Chhatrapati Shivaji International (Sahar International)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 10, 0, 0, DateTimeKind.Local),
@@ -1590,7 +1639,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 63,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1156),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6098),
                             Airport = "Chhatrapati Shivaji International (Sahar International)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 10, 0, 0, DateTimeKind.Local),
@@ -1603,7 +1652,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 64,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1187),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6155),
                             Airport = "Chhatrapati Shivaji International (Sahar International)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 10, 0, 0, DateTimeKind.Local),
@@ -1616,7 +1665,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 65,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1223),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6212),
                             Airport = "Madras International (Meenambakkam)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 35, 0, 0, DateTimeKind.Local),
@@ -1629,7 +1678,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 66,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1294),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6323),
                             Airport = "Chhatrapati Shivaji International (Sahar International)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 0, 0, 0, DateTimeKind.Local),
@@ -1642,7 +1691,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 67,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1332),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6378),
                             Airport = "Borjhar",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 20, 0, 0, DateTimeKind.Local),
@@ -1655,7 +1704,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 68,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1364),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6431),
                             Airport = "Vijayawada",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 55, 0, 0, DateTimeKind.Local),
@@ -1668,7 +1717,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 69,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1399),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6484),
                             Airport = "Sambre",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 40, 0, 0, DateTimeKind.Local),
@@ -1681,7 +1730,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 70,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1454),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6586),
                             Airport = "Indira Gandhi International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 45, 0, 0, DateTimeKind.Local),
@@ -1694,7 +1743,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 71,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1487),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6695),
                             Airport = "Indira Gandhi International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 45, 0, 0, DateTimeKind.Local),
@@ -1707,7 +1756,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 72,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1520),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6747),
                             Airport = "Indira Gandhi International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 45, 0, 0, DateTimeKind.Local),
@@ -1720,7 +1769,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 73,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1555),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6804),
                             Airport = "Indira Gandhi International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 35, 0, 0, DateTimeKind.Local),
@@ -1733,7 +1782,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 74,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1587),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6856),
                             Airport = "Indira Gandhi International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 35, 0, 0, DateTimeKind.Local),
@@ -1746,7 +1795,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 75,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1620),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6913),
                             Airport = "Bajpe",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 35, 0, 0, DateTimeKind.Local),
@@ -1759,7 +1808,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 76,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1678),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7016),
                             Airport = "Bajpe",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 35, 0, 0, DateTimeKind.Local),
@@ -1772,7 +1821,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 77,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1712),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7072),
                             Airport = "Phuket International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 7, 30, 0, 0, DateTimeKind.Local),
@@ -1785,7 +1834,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 78,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1744),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7125),
                             Airport = "Hyderabad Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 45, 0, 0, DateTimeKind.Local),
@@ -1798,7 +1847,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 79,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1776),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7177),
                             Airport = "Netaji Subhas Chandra",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 5, 0, 0, DateTimeKind.Local),
@@ -1811,7 +1860,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 80,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1809),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7229),
                             Airport = "Netaji Subhas Chandra",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 5, 0, 0, DateTimeKind.Local),
@@ -1824,7 +1873,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 81,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1870),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7356),
                             Airport = "Netaji Subhas Chandra",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 5, 0, 0, DateTimeKind.Local),
@@ -1837,7 +1886,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 82,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1903),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7413),
                             Airport = "Devi Ahilyabai Holkar",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 25, 0, 0, DateTimeKind.Local),
@@ -1850,7 +1899,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 83,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1936),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7465),
                             Airport = "Devi Ahilyabai Holkar",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 25, 0, 0, DateTimeKind.Local),
@@ -1863,7 +1912,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 84,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1968),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7518),
                             Airport = "Mannheim Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 0, 15, 0, 0, DateTimeKind.Local),
@@ -1876,7 +1925,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 85,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1999),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7571),
                             Airport = "Koltsovo International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 8, 10, 0, 0, DateTimeKind.Local),
@@ -1889,7 +1938,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 86,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2030),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7676),
                             Airport = "Haikou",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 55, 0, 0, DateTimeKind.Local),
@@ -1902,7 +1951,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 87,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2087),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7733),
                             Airport = "Kunming",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 7, 20, 0, 0, DateTimeKind.Local),
@@ -1915,7 +1964,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 88,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2120),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7784),
                             Airport = "Haikou",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 7, 5, 0, 0, DateTimeKind.Local),
@@ -1928,7 +1977,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 89,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2153),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7838),
                             Airport = "Linyi",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 30, 0, 0, DateTimeKind.Local),
@@ -1941,7 +1990,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 90,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2183),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7887),
                             Airport = "Chongqing Jiangbei International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 40, 0, 0, DateTimeKind.Local),
@@ -1954,7 +2003,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 91,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2216),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7940),
                             Airport = "Chongqing Jiangbei International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 40, 0, 0, DateTimeKind.Local),
@@ -1967,7 +2016,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 92,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2275),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8042),
                             Airport = "Taiyuan",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 30, 0, 0, DateTimeKind.Local),
@@ -1980,7 +2029,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 93,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2308),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8111),
                             Airport = "Lanzhou Zhongchuan Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 7, 15, 0, 0, DateTimeKind.Local),
@@ -1993,7 +2042,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 94,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2341),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8185),
                             Airport = "Hohhot",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 55, 0, 0, DateTimeKind.Local),
@@ -2006,7 +2055,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 95,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2372),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8238),
                             Airport = "Hohhot",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 55, 0, 0, DateTimeKind.Local),
@@ -2019,7 +2068,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 96,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2405),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8290),
                             Airport = "Lijiang",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 50, 0, 0, DateTimeKind.Local),
@@ -2032,7 +2081,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 97,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2501),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8398),
                             Airport = "Fenghuang International (Phoenix International)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 25, 0, 0, DateTimeKind.Local),
@@ -2045,7 +2094,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 98,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2646),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8454),
                             Airport = "Fenghuang International (Phoenix International)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 25, 0, 0, DateTimeKind.Local),
@@ -2058,7 +2107,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 99,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2684),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8509),
                             Airport = "Fenghuang International (Phoenix International)",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 25, 0, 0, DateTimeKind.Local),
@@ -2071,7 +2120,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 100,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2719),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8559),
                             Airport = "Alama Iqbal International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 45, 0, 0, DateTimeKind.Local),
@@ -2080,6 +2129,97 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             IATA = "LHE",
                             Scheduled = new DateTime(2023, 5, 23, 3, 45, 0, 0, DateTimeKind.Local),
                             Terminal = "M"
+                        },
+                        new
+                        {
+                            Id = 101,
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8613),
+                            Airport = "Miami International Airport",
+                            Delay = "43",
+                            Estimated = new DateTime(2023, 6, 23, 11, 38, 0, 0, DateTimeKind.Local),
+                            FlightId = 101,
+                            Gate = "D6",
+                            IATA = "MIA",
+                            Scheduled = new DateTime(2023, 6, 23, 11, 38, 0, 0, DateTimeKind.Local),
+                            Terminal = "N"
+                        },
+                        new
+                        {
+                            Id = 102,
+                            Actual = new DateTime(2023, 6, 23, 8, 10, 0, 0, DateTimeKind.Local),
+                            Airport = "Internacional Benito Juarez",
+                            Delay = "",
+                            Estimated = new DateTime(2023, 6, 23, 8, 23, 0, 0, DateTimeKind.Local),
+                            FlightId = 102,
+                            Gate = "P",
+                            IATA = "MEX",
+                            Scheduled = new DateTime(2023, 6, 23, 8, 23, 0, 0, DateTimeKind.Local),
+                            Terminal = "2"
+                        },
+                        new
+                        {
+                            Id = 103,
+                            Actual = new DateTime(2023, 6, 23, 11, 10, 0, 0, DateTimeKind.Local),
+                            Airport = "Tocumen International",
+                            Delay = "8",
+                            Estimated = new DateTime(2023, 6, 23, 11, 3, 0, 0, DateTimeKind.Local),
+                            FlightId = 103,
+                            Gate = "103",
+                            IATA = "PTY",
+                            Scheduled = new DateTime(2023, 6, 23, 11, 3, 0, 0, DateTimeKind.Local),
+                            Terminal = "1"
+                        },
+                        new
+                        {
+                            Id = 104,
+                            Actual = new DateTime(2023, 6, 23, 10, 52, 0, 0, DateTimeKind.Local),
+                            Airport = "El Salvador International",
+                            Delay = "",
+                            Estimated = new DateTime(2023, 6, 23, 11, 0, 0, 0, DateTimeKind.Local),
+                            FlightId = 104,
+                            Gate = "",
+                            IATA = "SAL",
+                            Scheduled = new DateTime(2023, 6, 23, 11, 0, 0, 0, DateTimeKind.Local),
+                            Terminal = "E"
+                        },
+                        new
+                        {
+                            Id = 105,
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8883),
+                            Airport = "Logan International",
+                            Delay = "",
+                            Estimated = new DateTime(2023, 6, 24, 3, 38, 0, 0, DateTimeKind.Local),
+                            FlightId = 105,
+                            Gate = "",
+                            IATA = "BOS",
+                            Scheduled = new DateTime(2023, 6, 24, 3, 38, 0, 0, DateTimeKind.Local),
+                            Terminal = "B"
+                        },
+                        new
+                        {
+                            Id = 106,
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8938),
+                            Airport = "John F Kennedy International",
+                            Delay = "",
+                            Estimated = new DateTime(2023, 6, 24, 4, 52, 0, 0, DateTimeKind.Local),
+                            FlightId = 106,
+                            Gate = "1",
+                            IATA = "JFK",
+                            Scheduled = new DateTime(2023, 6, 24, 4, 52, 0, 0, DateTimeKind.Local),
+                            Terminal = "8"
+                        },
+                        new
+                        {
+                            Id = 107,
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8992),
+                            Airport = "Charles De Gaulle",
+                            Delay = "",
+                            Estimated = new DateTime(2023, 6, 24, 8, 15, 0, 0, DateTimeKind.Local),
+                            FlightId = 107,
+                            Gate = "",
+                            IATA = "CDG",
+                            Scheduled = new DateTime(2023, 6, 24, 8, 15, 0, 0, DateTimeKind.Local),
+                            Terminal = "2E"
                         });
                 });
 
@@ -2126,7 +2266,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 1,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(8502),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(1273),
                             Airport = "Mukah",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 35, 0, 0, DateTimeKind.Local),
@@ -2139,7 +2279,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 2,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(8644),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(1466),
                             Airport = "Tanjung Manis",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 45, 0, 0, DateTimeKind.Local),
@@ -2152,7 +2292,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 3,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(8715),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(1580),
                             Airport = "Kuching",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 55, 0, 0, DateTimeKind.Local),
@@ -2165,7 +2305,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 4,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(8753),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(1634),
                             Airport = "Kuching",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 45, 0, 0, DateTimeKind.Local),
@@ -2178,7 +2318,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 5,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(8876),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(1687),
                             Airport = "Kuching",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 40, 0, 0, DateTimeKind.Local),
@@ -2191,7 +2331,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 6,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(8918),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(1750),
                             Airport = "Kuching",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 40, 0, 0, DateTimeKind.Local),
@@ -2204,7 +2344,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 7,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(8952),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(1805),
                             Airport = "Kuching",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 40, 0, 0, DateTimeKind.Local),
@@ -2217,7 +2357,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 8,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9013),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(1933),
                             Airport = "Kuching",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 40, 0, 0, DateTimeKind.Local),
@@ -2230,7 +2370,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 9,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9044),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(1993),
                             Airport = "Kuching",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 15, 0, 0, DateTimeKind.Local),
@@ -2243,7 +2383,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 10,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9082),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2057),
                             Airport = "Bhopal",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 10, 0, 0, DateTimeKind.Local),
@@ -2256,7 +2396,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 11,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9116),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2111),
                             Airport = "Bhopal",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 10, 0, 0, DateTimeKind.Local),
@@ -2269,7 +2409,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 12,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9150),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2245),
                             Airport = "Bhopal",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 0, 0, 0, DateTimeKind.Local),
@@ -2282,7 +2422,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 13,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9209),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2298),
                             Airport = "Kuqa",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 45, 0, 0, DateTimeKind.Local),
@@ -2295,7 +2435,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 14,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9241),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2351),
                             Airport = "Kuqa",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 45, 0, 0, DateTimeKind.Local),
@@ -2308,7 +2448,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 15,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9275),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2406),
                             Airport = "Kuqa",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 45, 0, 0, DateTimeKind.Local),
@@ -2321,7 +2461,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 16,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9307),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2462),
                             Airport = "Kuqa",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 45, 0, 0, DateTimeKind.Local),
@@ -2334,7 +2474,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 17,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9340),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2514),
                             Airport = "Krabi",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 30, 0, 0, DateTimeKind.Local),
@@ -2347,7 +2487,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 18,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9404),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2641),
                             Airport = "Krabi",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 30, 0, 0, DateTimeKind.Local),
@@ -2360,7 +2500,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 19,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9437),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2697),
                             Airport = "Krabi",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 15, 0, 0, DateTimeKind.Local),
@@ -2373,7 +2513,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 20,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9468),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2750),
                             Airport = "Sultan Ismail Petra",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 10, 0, 0, DateTimeKind.Local),
@@ -2386,7 +2526,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 21,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9500),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2807),
                             Airport = "Sultan Ismail Petra",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 10, 0, 0, DateTimeKind.Local),
@@ -2399,7 +2539,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 22,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9557),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(2961),
                             Airport = "Sultan Ismail Petra",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 10, 0, 0, DateTimeKind.Local),
@@ -2412,7 +2552,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 23,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9593),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3021),
                             Airport = "Sultan Ismail Petra",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 10, 0, 0, DateTimeKind.Local),
@@ -2425,7 +2565,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 24,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9625),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3078),
                             Airport = "Sultan Ismail Petra",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 10, 0, 0, DateTimeKind.Local),
@@ -2438,7 +2578,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 25,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9659),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3130),
                             Airport = "Sultan Ismail Petra",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 10, 0, 0, DateTimeKind.Local),
@@ -2451,7 +2591,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 26,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9693),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3189),
                             Airport = "Baghdad International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 0, 0, 0, 0, DateTimeKind.Local),
@@ -2464,7 +2604,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 27,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9725),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3242),
                             Airport = "Krasnojarsk",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 40, 0, 0, DateTimeKind.Local),
@@ -2477,7 +2617,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 28,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9794),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3378),
                             Airport = "Krasnojarsk",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 30, 0, 0, DateTimeKind.Local),
@@ -2490,7 +2630,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 29,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9826),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3459),
                             Airport = "Krasnojarsk",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 25, 0, 0, DateTimeKind.Local),
@@ -2503,7 +2643,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 30,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9858),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3512),
                             Airport = "Krasnojarsk",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 25, 0, 0, DateTimeKind.Local),
@@ -2516,7 +2656,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 31,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9891),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3567),
                             Airport = "Krasnojarsk",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 3, 25, 0, 0, DateTimeKind.Local),
@@ -2529,7 +2669,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 32,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9923),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3619),
                             Airport = "Kansai International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 5, 0, 0, DateTimeKind.Local),
@@ -2542,7 +2682,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 33,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 56, DateTimeKind.Local).AddTicks(9979),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3721),
                             Airport = "Kansai International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 55, 0, 0, DateTimeKind.Local),
@@ -2555,7 +2695,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 34,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(16),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3787),
                             Airport = "Kansai International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 55, 0, 0, DateTimeKind.Local),
@@ -2568,7 +2708,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 35,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(49),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3843),
                             Airport = "Kansai International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 50, 0, 0, DateTimeKind.Local),
@@ -2581,7 +2721,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 36,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(79),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(3899),
                             Airport = "Kansai International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 45, 0, 0, DateTimeKind.Local),
@@ -2594,7 +2734,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 37,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(139),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4092),
                             Airport = "Kansai International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 45, 0, 0, DateTimeKind.Local),
@@ -2607,7 +2747,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 38,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(172),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4184),
                             Airport = "Kansai International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 30, 0, 0, DateTimeKind.Local),
@@ -2620,7 +2760,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 39,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(203),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4270),
                             Airport = "Kansai International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 25, 0, 0, DateTimeKind.Local),
@@ -2633,7 +2773,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 40,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(234),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4324),
                             Airport = "Kansai International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 25, 0, 0, DateTimeKind.Local),
@@ -2646,7 +2786,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 41,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(266),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4380),
                             Airport = "Kansai International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 20, 0, 0, DateTimeKind.Local),
@@ -2659,7 +2799,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 42,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(322),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4503),
                             Airport = "Kansai International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 20, 0, 0, DateTimeKind.Local),
@@ -2672,7 +2812,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 43,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(355),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4566),
                             Airport = "Kansai International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 15, 0, 0, DateTimeKind.Local),
@@ -2685,7 +2825,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 44,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(387),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4623),
                             Airport = "Kansai International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 10, 0, 0, DateTimeKind.Local),
@@ -2698,7 +2838,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 45,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(421),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4676),
                             Airport = "Kansai International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 10, 0, 0, DateTimeKind.Local),
@@ -2711,7 +2851,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 46,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(453),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(4886),
                             Airport = "Kansai International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 10, 0, 0, DateTimeKind.Local),
@@ -2724,7 +2864,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 47,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(509),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5016),
                             Airport = "Kansai International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 10, 0, 0, DateTimeKind.Local),
@@ -2737,7 +2877,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 48,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(545),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5075),
                             Airport = "International Airport Chisinau",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 22, 23, 30, 0, 0, DateTimeKind.Local),
@@ -2750,7 +2890,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 49,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(578),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5130),
                             Airport = "International Airport Chisinau",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 22, 23, 30, 0, 0, DateTimeKind.Local),
@@ -2763,7 +2903,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 50,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(612),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5184),
                             Airport = "International Airport Chisinau",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 22, 23, 25, 0, 0, DateTimeKind.Local),
@@ -2776,7 +2916,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 51,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(644),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5238),
                             Airport = "International Airport Chisinau",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 22, 23, 25, 0, 0, DateTimeKind.Local),
@@ -2789,7 +2929,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 52,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(677),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5290),
                             Airport = "Niigata",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 55, 0, 0, DateTimeKind.Local),
@@ -2802,7 +2942,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 53,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(739),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5407),
                             Airport = "Niigata",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 35, 0, 0, DateTimeKind.Local),
@@ -2815,7 +2955,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 54,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(773),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5461),
                             Airport = "Niigata",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 10, 0, 0, DateTimeKind.Local),
@@ -2828,7 +2968,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 55,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(807),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5537),
                             Airport = "Niigata",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 10, 0, 0, DateTimeKind.Local),
@@ -2841,7 +2981,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 56,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(874),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5591),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 35, 0, 0, DateTimeKind.Local),
@@ -2854,7 +2994,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 57,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(905),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5644),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 30, 0, 0, DateTimeKind.Local),
@@ -2867,7 +3007,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 58,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(962),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5753),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 30, 0, 0, DateTimeKind.Local),
@@ -2880,7 +3020,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 59,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(994),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5805),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 30, 0, 0, DateTimeKind.Local),
@@ -2893,7 +3033,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 60,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1025),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5859),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 30, 0, 0, DateTimeKind.Local),
@@ -2906,7 +3046,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 61,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1056),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5914),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 30, 0, 0, DateTimeKind.Local),
@@ -2919,7 +3059,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 62,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1091),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(5967),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 30, 0, 0, DateTimeKind.Local),
@@ -2932,7 +3072,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 63,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1147),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6085),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 30, 0, 0, DateTimeKind.Local),
@@ -2945,7 +3085,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 64,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1180),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6142),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 30, 0, 0, DateTimeKind.Local),
@@ -2958,7 +3098,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 65,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1215),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6195),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 30, 0, 0, DateTimeKind.Local),
@@ -2971,7 +3111,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 66,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1287),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6312),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 20, 0, 0, DateTimeKind.Local),
@@ -2984,7 +3124,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 67,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1324),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6366),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 20, 0, 0, DateTimeKind.Local),
@@ -2997,7 +3137,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 68,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1356),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6419),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 10, 0, 0, DateTimeKind.Local),
@@ -3010,7 +3150,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 69,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1391),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6472),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 5, 0, 0, DateTimeKind.Local),
@@ -3023,7 +3163,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 70,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1423),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6526),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 0, 0, 0, DateTimeKind.Local),
@@ -3036,7 +3176,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 71,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1480),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6652),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 0, 0, 0, DateTimeKind.Local),
@@ -3049,7 +3189,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 72,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1513),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6735),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 0, 0, 0, DateTimeKind.Local),
@@ -3062,7 +3202,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 73,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1547),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6791),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 0, 0, 0, DateTimeKind.Local),
@@ -3075,7 +3215,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 74,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1580),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6844),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 0, 0, 0, DateTimeKind.Local),
@@ -3088,7 +3228,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 75,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1613),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(6901),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 1, 50, 0, 0, DateTimeKind.Local),
@@ -3101,7 +3241,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 76,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1670),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7003),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 1, 50, 0, 0, DateTimeKind.Local),
@@ -3114,7 +3254,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 77,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1704),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7060),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 1, 45, 0, 0, DateTimeKind.Local),
@@ -3127,7 +3267,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 78,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1737),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7112),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 1, 45, 0, 0, DateTimeKind.Local),
@@ -3140,7 +3280,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 79,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1769),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7165),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 1, 40, 0, 0, DateTimeKind.Local),
@@ -3153,7 +3293,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 80,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1801),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7217),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 1, 40, 0, 0, DateTimeKind.Local),
@@ -3166,7 +3306,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 81,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1862),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7344),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 1, 40, 0, 0, DateTimeKind.Local),
@@ -3179,7 +3319,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 82,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1895),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7401),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 1, 40, 0, 0, DateTimeKind.Local),
@@ -3192,7 +3332,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 83,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1928),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7453),
                             Airport = "Bangalore International Airport",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 1, 40, 0, 0, DateTimeKind.Local),
@@ -3205,7 +3345,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 84,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1960),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7506),
                             Airport = "Guglielmo Marconi",
                             Delay = "120",
                             Estimated = new DateTime(2023, 5, 22, 22, 30, 0, 0, DateTimeKind.Local),
@@ -3218,7 +3358,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 85,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(1992),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7560),
                             Airport = "Novyy",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 6, 20, 0, 0, DateTimeKind.Local),
@@ -3231,7 +3371,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 86,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2024),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7611),
                             Airport = "Nanchang",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 5, 0, 0, 0, DateTimeKind.Local),
@@ -3244,7 +3384,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 87,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2079),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7721),
                             Airport = "Nanchang",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 55, 0, 0, DateTimeKind.Local),
@@ -3257,7 +3397,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 88,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2113),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7773),
                             Airport = "Nanchang",
                             Delay = "40",
                             Estimated = new DateTime(2023, 5, 23, 4, 55, 0, 0, DateTimeKind.Local),
@@ -3270,7 +3410,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 89,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2145),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7825),
                             Airport = "Nanchang",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 50, 0, 0, DateTimeKind.Local),
@@ -3283,7 +3423,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 90,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2177),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7876),
                             Airport = "Nanchang",
                             Delay = "15",
                             Estimated = new DateTime(2023, 5, 23, 4, 50, 0, 0, DateTimeKind.Local),
@@ -3296,7 +3436,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 91,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2208),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(7929),
                             Airport = "Nanchang",
                             Delay = "15",
                             Estimated = new DateTime(2023, 5, 23, 4, 50, 0, 0, DateTimeKind.Local),
@@ -3309,7 +3449,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 92,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2267),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8030),
                             Airport = "Nanchang",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 30, 0, 0, DateTimeKind.Local),
@@ -3322,7 +3462,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 93,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2300),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8099),
                             Airport = "Nanchang",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 30, 0, 0, DateTimeKind.Local),
@@ -3335,7 +3475,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 94,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2333),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8171),
                             Airport = "Nanchang",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 20, 0, 0, DateTimeKind.Local),
@@ -3348,7 +3488,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 95,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2365),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8225),
                             Airport = "Nanchang",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 20, 0, 0, DateTimeKind.Local),
@@ -3361,7 +3501,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 96,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2397),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8278),
                             Airport = "Nanchang",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 15, 0, 0, DateTimeKind.Local),
@@ -3374,7 +3514,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 97,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2453),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8385),
                             Airport = "Nanchang",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 10, 0, 0, DateTimeKind.Local),
@@ -3387,7 +3527,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 98,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2639),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8443),
                             Airport = "Nanchang",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 10, 0, 0, DateTimeKind.Local),
@@ -3400,7 +3540,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 99,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2677),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8497),
                             Airport = "Nanchang",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 4, 10, 0, 0, DateTimeKind.Local),
@@ -3413,7 +3553,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 100,
-                            Actual = new DateTime(2023, 6, 23, 15, 48, 23, 57, DateTimeKind.Local).AddTicks(2709),
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8548),
                             Airport = "Quaid-e-azam International",
                             Delay = "",
                             Estimated = new DateTime(2023, 5, 23, 2, 0, 0, 0, DateTimeKind.Local),
@@ -3422,6 +3562,97 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             IATA = "KHI",
                             Scheduled = new DateTime(2023, 5, 23, 2, 0, 0, 0, DateTimeKind.Local),
                             Terminal = "M"
+                        },
+                        new
+                        {
+                            Id = 101,
+                            Actual = new DateTime(2023, 6, 23, 8, 30, 0, 0, DateTimeKind.Local),
+                            Airport = "Ramon Villeda Morales International",
+                            Delay = "76",
+                            Estimated = new DateTime(2023, 6, 23, 7, 14, 0, 0, DateTimeKind.Local),
+                            FlightId = 101,
+                            Gate = "",
+                            IATA = "SAP",
+                            Scheduled = new DateTime(2023, 6, 23, 7, 14, 0, 0, DateTimeKind.Local),
+                            Terminal = ""
+                        },
+                        new
+                        {
+                            Id = 102,
+                            Actual = new DateTime(2023, 6, 23, 6, 14, 0, 0, DateTimeKind.Local),
+                            Airport = "Ramon Villeda Morales International",
+                            Delay = "15",
+                            Estimated = new DateTime(2023, 6, 23, 6, 0, 0, 0, DateTimeKind.Local),
+                            FlightId = 102,
+                            Gate = "",
+                            IATA = "SAP",
+                            Scheduled = new DateTime(2023, 6, 23, 6, 0, 0, 0, DateTimeKind.Local),
+                            Terminal = ""
+                        },
+                        new
+                        {
+                            Id = 103,
+                            Actual = new DateTime(2023, 6, 23, 8, 26, 0, 0, DateTimeKind.Local),
+                            Airport = "Ramon Villeda Morales International",
+                            Delay = "36",
+                            Estimated = new DateTime(2023, 6, 23, 7, 51, 0, 0, DateTimeKind.Local),
+                            FlightId = 103,
+                            Gate = "5",
+                            IATA = "SAP",
+                            Scheduled = new DateTime(2023, 6, 23, 7, 51, 0, 0, DateTimeKind.Local),
+                            Terminal = ""
+                        },
+                        new
+                        {
+                            Id = 104,
+                            Actual = new DateTime(2023, 6, 23, 10, 23, 0, 0, DateTimeKind.Local),
+                            Airport = "Ramon Villeda Morales International",
+                            Delay = "8",
+                            Estimated = new DateTime(2023, 6, 23, 10, 15, 0, 0, DateTimeKind.Local),
+                            FlightId = 104,
+                            Gate = "",
+                            IATA = "SAP",
+                            Scheduled = new DateTime(2023, 6, 23, 10, 15, 0, 0, DateTimeKind.Local),
+                            Terminal = ""
+                        },
+                        new
+                        {
+                            Id = 105,
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8871),
+                            Airport = "Miami International Airport",
+                            Delay = "",
+                            Estimated = new DateTime(2023, 6, 24, 0, 10, 0, 0, DateTimeKind.Local),
+                            FlightId = 105,
+                            Gate = "G12",
+                            IATA = "MIA",
+                            Scheduled = new DateTime(2023, 6, 24, 0, 10, 0, 0, DateTimeKind.Local),
+                            Terminal = "C"
+                        },
+                        new
+                        {
+                            Id = 106,
+                            Actual = new DateTime(2023, 6, 24, 10, 48, 12, 224, DateTimeKind.Local).AddTicks(8925),
+                            Airport = "Miami International Airport",
+                            Delay = "",
+                            Estimated = new DateTime(2023, 6, 24, 1, 50, 0, 0, DateTimeKind.Local),
+                            FlightId = 106,
+                            Gate = "D32",
+                            IATA = "MIA",
+                            Scheduled = new DateTime(2023, 6, 24, 1, 50, 0, 0, DateTimeKind.Local),
+                            Terminal = "N"
+                        },
+                        new
+                        {
+                            Id = 107,
+                            Actual = new DateTime(2023, 6, 23, 17, 52, 0, 0, DateTimeKind.Local),
+                            Airport = "Miami International Airport",
+                            Delay = "33",
+                            Estimated = new DateTime(2023, 6, 23, 17, 20, 0, 0, DateTimeKind.Local),
+                            FlightId = 107,
+                            Gate = "J18",
+                            IATA = "MIA",
+                            Scheduled = new DateTime(2023, 6, 23, 17, 20, 0, 0, DateTimeKind.Local),
+                            Terminal = "S"
                         });
                 });
 
@@ -4669,6 +4900,90 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             FlightInfoId = 100,
                             FlightStatus = "",
                             Live = ""
+                        },
+                        new
+                        {
+                            Id = 101,
+                            Aircraft = "",
+                            AirlineId = 101,
+                            ArrivalId = 101,
+                            DepartureId = 101,
+                            FlightDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FlightInfoId = 101,
+                            FlightStatus = "",
+                            Live = ""
+                        },
+                        new
+                        {
+                            Id = 102,
+                            Aircraft = "",
+                            AirlineId = 102,
+                            ArrivalId = 102,
+                            DepartureId = 102,
+                            FlightDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FlightInfoId = 102,
+                            FlightStatus = "",
+                            Live = ""
+                        },
+                        new
+                        {
+                            Id = 103,
+                            Aircraft = "",
+                            AirlineId = 103,
+                            ArrivalId = 103,
+                            DepartureId = 103,
+                            FlightDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FlightInfoId = 103,
+                            FlightStatus = "",
+                            Live = ""
+                        },
+                        new
+                        {
+                            Id = 104,
+                            Aircraft = "",
+                            AirlineId = 104,
+                            ArrivalId = 104,
+                            DepartureId = 104,
+                            FlightDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FlightInfoId = 104,
+                            FlightStatus = "",
+                            Live = ""
+                        },
+                        new
+                        {
+                            Id = 105,
+                            Aircraft = "",
+                            AirlineId = 105,
+                            ArrivalId = 105,
+                            DepartureId = 105,
+                            FlightDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FlightInfoId = 105,
+                            FlightStatus = "",
+                            Live = ""
+                        },
+                        new
+                        {
+                            Id = 106,
+                            Aircraft = "",
+                            AirlineId = 106,
+                            ArrivalId = 106,
+                            DepartureId = 106,
+                            FlightDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FlightInfoId = 106,
+                            FlightStatus = "",
+                            Live = ""
+                        },
+                        new
+                        {
+                            Id = 107,
+                            Aircraft = "",
+                            AirlineId = 107,
+                            ArrivalId = 107,
+                            DepartureId = 107,
+                            FlightDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FlightInfoId = 107,
+                            FlightStatus = "",
+                            Live = ""
                         });
                 });
 
@@ -5393,6 +5708,55 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             FlightId = 100,
                             IATA = "PK302",
                             Number = "302"
+                        },
+                        new
+                        {
+                            Id = 101,
+                            FlightId = 101,
+                            IATA = "AA1312",
+                            Number = "1312"
+                        },
+                        new
+                        {
+                            Id = 102,
+                            FlightId = 102,
+                            IATA = "5D675",
+                            Number = "675"
+                        },
+                        new
+                        {
+                            Id = 103,
+                            FlightId = 103,
+                            IATA = "CM287",
+                            Number = "287"
+                        },
+                        new
+                        {
+                            Id = 104,
+                            FlightId = 104,
+                            IATA = "AV537",
+                            Number = "537"
+                        },
+                        new
+                        {
+                            Id = 105,
+                            FlightId = 105,
+                            IATA = "NK3121",
+                            Number = "3121"
+                        },
+                        new
+                        {
+                            Id = 106,
+                            FlightId = 106,
+                            IATA = "AA315",
+                            Number = "315"
+                        },
+                        new
+                        {
+                            Id = 107,
+                            FlightId = 107,
+                            IATA = "AF97",
+                            Number = "97"
                         });
                 });
 
