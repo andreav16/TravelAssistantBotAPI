@@ -50,7 +50,7 @@ namespace TravelAssistantBot.Core.FlightManager
             return new OperationResult<Flight>(flight);
         }
 
-        public async Task<OperationResult<List<Flight>>> GetFlightsByDepartureAndArrivalAsync(string from, string to)
+        public async Task<OperationResult<List<Flight>>> GetFlightsByDepartureAndArrivalAsync(string from, string to, DateOnly date)
         {
             //Implementar el factory
             ICityCodeFinder cityCodeFinder = cityCodeFinderFactory.CreateCityCodeFinder();
@@ -82,7 +82,7 @@ namespace TravelAssistantBot.Core.FlightManager
                 .Include(f => f.Arrival)
                 .Include(f => f.Airline)
                 .Include(f => f.FlightInfo)
-                .Where(f => f.Departure.IATA == departure && f.Arrival.IATA == arrival)
+                .Where(f => f.Departure.IATA == departure && f.Arrival.IATA == arrival && f.FlightDate.Date.CompareTo(date) == 0)
                 .ToListAsync();
 
             if (!flights.Any())
