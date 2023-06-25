@@ -95,8 +95,8 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework
                 var flight = new Flight
                 {
                     Id = id,
-                    FlightDate = flightData.FlightDate,
-                    FlightStatus = flightData.FlightStatus ?? "",
+                    FlightDate = flightData.Flight_Date,
+                    FlightStatus = flightData.Flight_Status,
 
                     DepartureId = departure.Id,
                     ArrivalId = arrival.Id,

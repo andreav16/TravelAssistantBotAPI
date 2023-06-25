@@ -8,8 +8,8 @@ namespace TravelAssistantBot.Core.Entities.FlightEntities.FileData
 {
     public class FlightData
     {
-        public DateTime FlightDate { get; set; }
-        public string FlightStatus { get; set; }
+        public DateTime Flight_Date { get; set; }
+        public string Flight_Status { get; set; }
         public DepartureData Departure { get; set; }
         public ArrivalData Arrival { get; set; }
         public AirlineData Airline { get; set; }
