@@ -32,7 +32,7 @@
     },
     {
       "city": "Boston",
-      "code": "Bos",
+      "code": "BOS",
       "country": "Boston"
     },
     {
@@ -46,9 +46,9 @@
       "country": "El Salvador"
     },
     {
-      "city": "Miami  ",
+      "city": "Miami",
       "code": "MIA",
       "country": "Miami"
     }
-
+  ]
 }

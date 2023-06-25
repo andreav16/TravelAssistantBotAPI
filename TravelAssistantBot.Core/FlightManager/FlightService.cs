@@ -1,12 +1,18 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
 using TravelAssistantBot.Core.Entities.FlightEntities;
+using TravelAssistantBot.Core.Factory;
+using TravelAssistantBot.Core.IATA_Manager;
+using TravelAssistantBot.Core.Interfaces;
+
 
 namespace TravelAssistantBot.Core.FlightManager
 {
     public class FlightsService : IFlightService
     {
+        
         private readonly IRepository<Flight> flightRepository;
+        ICityCodeFinderFactory cityCodeFinderFactory = new CityCodeFinderFactory();
 
         public FlightsService(IRepository<Flight> flightRepository)
         {
@@ -46,7 +52,14 @@ namespace TravelAssistantBot.Core.FlightManager
 
         public async Task<OperationResult<List<Flight>>> GetFlightsByDepartureAndArrivalAsync(string from, string to)
         {
-            if (string.IsNullOrEmpty(from))
+            //Implementar el factory
+            ICityCodeFinder cityCodeFinder = cityCodeFinderFactory.CreateCityCodeFinder();
+
+            string departure = cityCodeFinder.FindCityCode(from);
+            string arrival = cityCodeFinder.FindCityCode(to);
+
+
+            if (string.IsNullOrEmpty(departure))
             {
                 return new OperationResult<List<Flight>>(new Error
                 {
@@ -55,7 +68,7 @@ namespace TravelAssistantBot.Core.FlightManager
                 });
             }
 
-            if (string.IsNullOrEmpty(to))
+            if (string.IsNullOrEmpty(arrival))
             {
                 return new OperationResult<List<Flight>>(new Error
                 {
@@ -69,7 +82,7 @@ namespace TravelAssistantBot.Core.FlightManager
                 .Include(f => f.Arrival)
                 .Include(f => f.Airline)
                 .Include(f => f.FlightInfo)
-                .Where(f => f.Departure.IATA == from && f.Arrival.IATA == to)
+                .Where(f => f.Departure.IATA == departure && f.Arrival.IATA == arrival)
                 .ToListAsync();
 
             if (!flights.Any())
