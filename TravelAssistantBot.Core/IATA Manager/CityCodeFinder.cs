@@ -11,7 +11,7 @@ namespace TravelAssistantBot.Core.IATA_Manager
 {
     public class CityCodeFinder : ICityCodeFinder
     {
-        string file = File.ReadAllText("C:\\Users\\leoth\\Documents\\2 tri 2023\\Vanguardia\\Proyecto VANG\\TravelAssistantBotAPI\\TravelAssistantBot.Api\\IATA_Code.json");
+        string file = new IATAFileReader().getFilePath();
 
         public string FindCityCode(string cityName)
         {
