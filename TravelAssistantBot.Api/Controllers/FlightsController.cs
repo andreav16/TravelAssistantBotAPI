@@ -27,7 +27,7 @@ namespace TravelAssistantBot.Api.Controllers
         }
 
         [HttpGet("{from}/{to}/{date}")]
-        public async Task<IActionResult> GetFlightsByDepartureAndArrivalAsync([FromRoute] string from, [FromRoute] string to, [FromRoute] DateOnly date)
+        public async Task<IActionResult> GetFlightsByDepartureAndArrivalAsync([FromRoute] string from, [FromRoute] string to, [FromRoute] DateTime date)
         {
             var result = await flightService.GetFlightsByDepartureAndArrivalAsync(from, to, date);
             var flight = mapper.Map<List<FlightDetailsDataTransferObject>>(result.Result);
