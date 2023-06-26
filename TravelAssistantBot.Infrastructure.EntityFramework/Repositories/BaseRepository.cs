@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
-using TravelAssistantBot.Core;
 using System.Linq;
 using System.Linq.Expressions;
+using TravelAssistantBot.Core.Interfaces;
 
 namespace TravelAssistantBot.Infrastructure.EntityFramework.Repositories
 {

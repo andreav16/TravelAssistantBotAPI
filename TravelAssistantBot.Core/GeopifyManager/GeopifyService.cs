@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TravelAssistantBot.Core.Entities.GeopifyEntities.CountryEntities;
 using TravelAssistantBot.Core.Entities.GeopifyEntities.PlacesEntities;
+using TravelAssistantBot.Core.Options;
 
 namespace TravelAssistantBot.Core.GeopifyManager
 {

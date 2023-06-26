@@ -11,6 +11,7 @@ using TravelAssistantBot.Core.GeopifyManager;
 using TravelAssistantBot.Core;
 using Moq;
 using FluentAssertions;
+using TravelAssistantBot.Core.Options;
 
 namespace TravelAssistantBot.Tests
 {
@@ -123,7 +124,6 @@ namespace TravelAssistantBot.Tests
                 .Setup(c => c.GetAsync(It.IsAny<string>()))
                 .ReturnsAsync(httpResponseMessage);
 
-            // Create the GeopifyService instance with mocked dependencies
             var geopifyService = new GeopifyService(placesOptionsMock.Object, geocodeOptionsMock.Object);
 
             // Act

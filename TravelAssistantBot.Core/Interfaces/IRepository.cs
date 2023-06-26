@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace TravelAssistantBot.Core;
+namespace TravelAssistantBot.Core.Interfaces;
 public interface IRepository<TEntity>
     where TEntity : class
 {

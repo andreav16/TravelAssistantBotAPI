@@ -1,4 +1,3 @@
-using TravelAssistantBot.Core;
 using TravelAssistantBot.Core.ConversationalLanguageInterpreter;
 using TravelAssistantBot.Core.EventManager;
 using TravelAssistantBot.Core.Options;
@@ -7,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using TravelAssistantBot.Infrastructure.EntityFramework;
 using TravelAssistantBot.Core.FlightManager;
 using TravelAssistantBot.Infrastructure.EntityFramework.Repositories;
+using TravelAssistantBot.Core.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 var allowAllOriginsPolicy = "_allowAllOriginsPolicy";
