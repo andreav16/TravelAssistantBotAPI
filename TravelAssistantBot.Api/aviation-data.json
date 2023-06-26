@@ -6,9 +6,8 @@
         "total": 458634
     },
   "data": [
-    //nuevos vuelos
     {
-      "flight_date": "2023-06-25",
+      "flight_date": "2023-06-26",
       "flight_status": "scheduled",
       "departure": {
         "airport": "Ramon Villeda Morales International",
@@ -18,8 +17,8 @@
         "terminal": null,
         "gate": null,
         "delay": 76,
-        "scheduled": "2023-06-23T13:14:00+00:00",
-        "estimated": "2023-06-23T13:14:00+00:00",
+        "scheduled": "2023-06-26T13:14:00+00:00",
+        "estimated": "2023-06-26T13:14:00+00:00",
         "actual": "2023-06-23T14:30:00+00:00",
         "estimated_runway": "2023-06-23T14:30:00+00:00",
         "actual_runway": "2023-06-23T14:30:00+00:00"
@@ -33,8 +32,8 @@
         "gate": "D6",
         "baggage": "CD",
         "delay": 43,
-        "scheduled": "2023-06-23T17:38:00+00:00",
-        "estimated": "2023-06-23T17:38:00+00:00",
+        "scheduled": "2023-06-27T17:38:00+00:00",
+        "estimated": "2023-06-27T17:38:00+00:00",
         "actual": null,
         "estimated_runway": null,
         "actual_runway": null
@@ -54,7 +53,7 @@
       "live": null
     },
     {
-      "flight_date": "2023-06-25",
+      "flight_date": "2023-06-26",
       "flight_status": "landed",
       "departure": {
         "airport": "Ramon Villeda Morales International",
@@ -64,8 +63,8 @@
         "terminal": null,
         "gate": null,
         "delay": 15,
-        "scheduled": "2023-06-23T12:00:00+00:00",
-        "estimated": "2023-06-23T12:00:00+00:00",
+        "scheduled": "2023-06-26T12:00:00+00:00",
+        "estimated": "2023-06-26T12:00:00+00:00",
         "actual": "2023-06-23T12:14:00+00:00",
         "estimated_runway": "2023-06-23T12:14:00+00:00",
         "actual_runway": "2023-06-23T12:14:00+00:00"
@@ -79,8 +78,8 @@
         "gate": "P",
         "baggage": null,
         "delay": null,
-        "scheduled": "2023-06-23T14:23:00+00:00",
-        "estimated": "2023-06-23T14:23:00+00:00",
+        "scheduled": "2023-06-27T14:23:00+00:00",
+        "estimated": "2023-06-27T14:23:00+00:00",
         "actual": "2023-06-23T14:10:00+00:00",
         "estimated_runway": "2023-06-23T14:10:00+00:00",
         "actual_runway": "2023-06-23T14:10:00+00:00"
@@ -100,7 +99,7 @@
       "live": null
     },
     {
-      "flight_date": "2023-06-26",
+      "flight_date": "2023-06-27",
       "flight_status": "landed",
       "departure": {
         "airport": "Ramon Villeda Morales International",
@@ -110,8 +109,8 @@
         "terminal": null,
         "gate": "5",
         "delay": 36,
-        "scheduled": "2023-06-23T13:51:00+00:00",
-        "estimated": "2023-06-23T13:51:00+00:00",
+        "scheduled": "2023-06-27T13:51:00+00:00",
+        "estimated": "2023-06-27T13:51:00+00:00",
         "actual": "2023-06-23T14:26:00+00:00",
         "estimated_runway": "2023-06-23T14:26:00+00:00",
         "actual_runway": "2023-06-23T14:26:00+00:00"
@@ -125,8 +124,8 @@
         "gate": "103",
         "baggage": null,
         "delay": 8,
-        "scheduled": "2023-06-23T17:03:00+00:00",
-        "estimated": "2023-06-23T17:03:00+00:00",
+        "scheduled": "2023-06-27T17:03:00+00:00",
+        "estimated": "2023-06-27T17:03:00+00:00",
         "actual": "2023-06-23T17:10:00+00:00",
         "estimated_runway": "2023-06-23T17:10:00+00:00",
         "actual_runway": "2023-06-23T17:10:00+00:00"
@@ -146,7 +145,7 @@
       "live": null
     },
     {
-      "flight_date": "2023-06-26",
+      "flight_date": "2023-06-27",
       "flight_status": "landed",
       "departure": {
         "airport": "Ramon Villeda Morales International",
@@ -156,8 +155,8 @@
         "terminal": null,
         "gate": null,
         "delay": 8,
-        "scheduled": "2023-06-23T16:15:00+00:00",
-        "estimated": "2023-06-23T16:15:00+00:00",
+        "scheduled": "2023-06-27T16:15:00+00:00",
+        "estimated": "2023-06-27T16:15:00+00:00",
         "actual": "2023-06-23T16:23:00+00:00",
         "estimated_runway": "2023-06-23T16:23:00+00:00",
         "actual_runway": "2023-06-23T16:23:00+00:00"
@@ -171,8 +170,8 @@
         "gate": null,
         "baggage": null,
         "delay": null,
-        "scheduled": "2023-06-23T17:00:00+00:00",
-        "estimated": "2023-06-23T17:00:00+00:00",
+        "scheduled": "2023-06-28T17:00:00+00:00",
+        "estimated": "2023-06-28T17:00:00+00:00",
         "actual": "2023-06-23T16:52:00+00:00",
         "estimated_runway": "2023-06-23T16:52:00+00:00",
         "actual_runway": "2023-06-23T16:52:00+00:00"
@@ -192,7 +191,7 @@
       "live": null
     },
     {
-      "flight_date": "2023-06-26",
+      "flight_date": "2023-06-27",
       "flight_status": "scheduled",
       "departure": {
         "airport": "Miami International Airport",
@@ -202,8 +201,8 @@
         "terminal": "C",
         "gate": "G12",
         "delay": null,
-        "scheduled": "2023-06-24T06:10:00+00:00",
-        "estimated": "2023-06-24T06:10:00+00:00",
+        "scheduled": "2023-06-27T06:10:00+00:00",
+        "estimated": "2023-06-27T06:10:00+00:00",
         "actual": null,
         "estimated_runway": null,
         "actual_runway": null
@@ -217,8 +216,8 @@
         "gate": null,
         "baggage": "10",
         "delay": null,
-        "scheduled": "2023-06-24T09:38:00+00:00",
-        "estimated": "2023-06-24T09:38:00+00:00",
+        "scheduled": "2023-06-28T09:38:00+00:00",
+        "estimated": "2023-06-28T09:38:00+00:00",
         "actual": null,
         "estimated_runway": null,
         "actual_runway": null
@@ -238,7 +237,7 @@
       "live": null
     },
     {
-      "flight_date": "2023-06-27",
+      "flight_date": "2023-06-28",
       "flight_status": "scheduled",
       "departure": {
         "airport": "Miami International Airport",
@@ -248,8 +247,8 @@
         "terminal": "N",
         "gate": "D32",
         "delay": null,
-        "scheduled": "2023-06-24T07:50:00+00:00",
-        "estimated": "2023-06-24T07:50:00+00:00",
+        "scheduled": "2023-06-28T07:50:00+00:00",
+        "estimated": "2023-06-28T07:50:00+00:00",
         "actual": null,
         "estimated_runway": null,
         "actual_runway": null
@@ -263,8 +262,8 @@
         "gate": "1",
         "baggage": null,
         "delay": null,
-        "scheduled": "2023-06-24T10:52:00+00:00",
-        "estimated": "2023-06-24T10:52:00+00:00",
+        "scheduled": "2023-06-29T10:52:00+00:00",
+        "estimated": "2023-06-29T10:52:00+00:00",
         "actual": null,
         "estimated_runway": null,
         "actual_runway": null
@@ -284,7 +283,7 @@
       "live": null
     },
     {
-      "flight_date": "2023-06-27",
+      "flight_date": "2023-06-29",
       "flight_status": "active",
       "departure": {
         "airport": "Miami International Airport",
@@ -294,8 +293,8 @@
         "terminal": "S",
         "gate": "J18",
         "delay": 33,
-        "scheduled": "2023-06-23T23:20:00+00:00",
-        "estimated": "2023-06-23T23:20:00+00:00",
+        "scheduled": "2023-06-29T23:20:00+00:00",
+        "estimated": "2023-06-29T23:20:00+00:00",
         "actual": "2023-06-23T23:52:00+00:00",
         "estimated_runway": "2023-06-23T23:52:00+00:00",
         "actual_runway": "2023-06-23T23:52:00+00:00"
@@ -309,8 +308,8 @@
         "gate": null,
         "baggage": "31",
         "delay": null,
-        "scheduled": "2023-06-24T14:15:00+00:00",
-        "estimated": "2023-06-24T14:15:00+00:00",
+        "scheduled": "2023-06-29T14:15:00+00:00",
+        "estimated": "2023-06-29T14:15:00+00:00",
         "actual": null,
         "estimated_runway": null,
         "actual_runway": null
@@ -330,7 +329,7 @@
       "live": null
     },
     {
-      "flight_date": "2023-06-25",
+      "flight_date": "2023-06-30",
       "flight_status": "landed",
       "departure": {
         "airport": "Miami International Airport",
@@ -340,8 +339,8 @@
         "terminal": "C",
         "gate": "E5",
         "delay": 22,
-        "scheduled": "2023-06-25T09:01:00+00:00",
-        "estimated": "2023-06-25T09:01:00+00:00",
+        "scheduled": "2023-06-30T09:01:00+00:00",
+        "estimated": "2023-06-30T09:01:00+00:00",
         "actual": "2023-06-25T09:22:00+00:00",
         "estimated_runway": "2023-06-25T09:22:00+00:00",
         "actual_runway": "2023-06-25T09:22:00+00:00"
@@ -355,8 +354,8 @@
         "gate": "53B",
         "baggage": "T5C5",
         "delay": null,
-        "scheduled": "2023-06-25T11:40:00+00:00",
-        "estimated": "2023-06-25T11:40:00+00:00",
+        "scheduled": "2023-06-30T11:40:00+00:00",
+        "estimated": "2023-06-30T11:40:00+00:00",
         "actual": "2023-06-25T11:15:00+00:00",
         "estimated_runway": "2023-06-25T11:15:00+00:00",
         "actual_runway": "2023-06-25T11:15:00+00:00"
@@ -383,7 +382,7 @@
       "live": null
     },
     {
-      "flight_date": "2023-06-25",
+      "flight_date": "2023-06-30",
       "flight_status": "scheduled",
       "departure": {
         "airport": "Miami International Airport",
@@ -393,8 +392,8 @@
         "terminal": "N",
         "gate": "D42",
         "delay": 124,
-        "scheduled": "2023-06-25T18:52:00+00:00",
-        "estimated": "2023-06-25T18:52:00+00:00",
+        "scheduled": "2023-06-30T18:52:00+00:00",
+        "estimated": "2023-06-30T18:52:00+00:00",
         "actual": "2023-06-25T20:44:00+00:00",
         "estimated_runway": "2023-06-25T20:44:00+00:00",
         "actual_runway": "2023-06-25T20:44:00+00:00"
@@ -408,8 +407,8 @@
         "gate": "A4A",
         "baggage": "2",
         "delay": 78,
-        "scheduled": "2023-06-25T19:50:00+00:00",
-        "estimated": "2023-06-25T19:50:00+00:00",
+        "scheduled": "2023-07-01T19:50:00+00:00",
+        "estimated": "2023-07-01T19:50:00+00:00",
         "actual": null,
         "estimated_runway": null,
         "actual_runway": null
@@ -429,7 +428,7 @@
       "live": null
     },
     {
-      "flight_date": "2023-06-25",
+      "flight_date": "2023-07-01",
       "flight_status": "active",
       "departure": {
         "airport": "Miami International Airport",
@@ -439,8 +438,8 @@
         "terminal": "C",
         "gate": "E31",
         "delay": 27,
-        "scheduled": "2023-06-25T21:30:00+00:00",
-        "estimated": "2023-06-25T21:30:00+00:00",
+        "scheduled": "2023-07-01T21:30:00+00:00",
+        "estimated": "2023-07-01T21:30:00+00:00",
         "actual": "2023-06-25T21:57:00+00:00",
         "estimated_runway": "2023-06-25T21:57:00+00:00",
         "actual_runway": "2023-06-25T21:57:00+00:00"
@@ -454,8 +453,8 @@
         "gate": null,
         "baggage": "I107",
         "delay": null,
-        "scheduled": "2023-06-26T12:05:00+00:00",
-        "estimated": "2023-06-26T12:05:00+00:00",
+        "scheduled": "2023-07-02T12:05:00+00:00",
+        "estimated": "2023-07-02T12:05:00+00:00",
         "actual": null,
         "estimated_runway": null,
         "actual_runway": null
@@ -482,7 +481,7 @@
       "live": null
     },
     {
-      "flight_date": "2023-06-25",
+      "flight_date": "2023-07-02",
       "flight_status": "landed",
       "departure": {
         "airport": "Internacional Benito Juarez",
@@ -492,8 +491,8 @@
         "terminal": "1",
         "gate": "33",
         "delay": 20,
-        "scheduled": "2023-06-25T10:20:00+00:00",
-        "estimated": "2023-06-25T10:20:00+00:00",
+        "scheduled": "2023-07-02T10:20:00+00:00",
+        "estimated": "2023-07-02T10:20:00+00:00",
         "actual": "2023-06-25T10:40:00+00:00",
         "estimated_runway": "2023-06-25T10:40:00+00:00",
         "actual_runway": "2023-06-25T10:40:00+00:00"
@@ -507,8 +506,8 @@
         "gate": "D44",
         "baggage": "CD",
         "delay": null,
-        "scheduled": "2023-06-25T15:40:00+00:00",
-        "estimated": "2023-06-25T15:40:00+00:00",
+        "scheduled": "2023-07-02T15:40:00+00:00",
+        "estimated": "2023-07-02T15:40:00+00:00",
         "actual": "2023-06-25T15:35:00+00:00",
         "estimated_runway": "2023-06-25T15:35:00+00:00",
         "actual_runway": "2023-06-25T15:35:00+00:00"
