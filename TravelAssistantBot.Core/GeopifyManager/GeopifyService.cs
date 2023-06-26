@@ -18,6 +18,8 @@ namespace TravelAssistantBot.Core.GeopifyManager
 
         private readonly GeopifyOptions_Places geopifyOptionsPlaces;
         private readonly GeopifyOptions_Geocode geopifyOptionsGeocode;
+        private HttpClient @object;
+        private GeopifyOptions_Geocode geopifyOptions;
 
         public GeopifyService(IOptions<GeopifyOptions_Places> optionsPlaces, IOptions<GeopifyOptions_Geocode> optionsGeocode)
         {
@@ -25,6 +27,11 @@ namespace TravelAssistantBot.Core.GeopifyManager
             geopifyOptionsGeocode = optionsGeocode.Value;
         }
 
+        public GeopifyService(HttpClient @object, GeopifyOptions_Geocode geopifyOptions)
+        {
+            this.@object = @object;
+            this.geopifyOptions = geopifyOptions;
+        }
 
         public async Task<OperationResult<GeocodeGroup>> GetCountryAsync(string cityName)
         {
