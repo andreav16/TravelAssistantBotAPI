@@ -1,4 +1,7 @@
-﻿namespace TravelAssistantBot.Core;
+﻿using System.Collections.Generic;
+using System.Linq.Expressions;
+
+namespace TravelAssistantBot.Core;
 public interface IRepository<TEntity>
     where TEntity : class
 {
@@ -10,4 +13,6 @@ public interface IRepository<TEntity>
     TEntity? GetById(int id);
     Task<int> CommitAsync();
     int Commit();
+    IQueryable<TEntity> GetQueryable(params Expression<Func<TEntity, object>>[] includes);
 }
+

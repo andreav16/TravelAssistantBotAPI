@@ -1,0 +1,80 @@
+{
+  "codes": [
+    {
+      "city": "New York",
+      "code": "JFK",
+      "country": "United States"
+    },
+    {
+      "city": "London",
+      "code": "LHR",
+      "country": "United Kingdom"
+    },
+    {
+      "city": "Paris",
+      "code": "CDG",
+      "country": "France"
+    },
+    {
+      "city": "Tokyo",
+      "code": "NRT",
+      "country": "Japan"
+    },
+    {
+      "city": "San Pedro Sula",
+      "code": "SAP",
+      "country": "Honduras"
+    },
+    {
+      "city": "Mexico City",
+      "code": "MEX",
+      "country": "Mexico"
+    },
+    {
+      "city": "Boston",
+      "code": "BOS",
+      "country": "United States"
+    },
+    {
+      "city": "Panama",
+      "code": "PTY",
+      "country": "Panama"
+    },
+    {
+      "city": "El Salvador",
+      "code": "SAL",
+      "country": "El Salvador"
+    },
+    {
+      "city": "Miami",
+      "code": "MIA",
+      "country": "United States"
+    },
+    {
+      "city": "Los Angeles",
+      "code": "LAX",
+      "country": "United States"
+    },
+    {
+      "city": "San Jose",
+      "code": "SJO",
+      "country": "Costa Rica"
+    },
+    {
+      "city": "Madrid",
+      "code": "MAD",
+      "country": "España"
+    },
+    {
+      "city": "Bogota",
+      "code": "BOG",
+      "country": "Colombia"
+    },
+    {
+      "city": "Madrid",
+      "code": "MAD",
+      "country": "España"
+    }
+
+  ]
+}

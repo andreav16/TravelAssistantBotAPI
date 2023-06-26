@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TravelAssistantBot.Core\TravelAssistantBot.Core.csproj" />
+  </ItemGroup>
+
 </Project>
