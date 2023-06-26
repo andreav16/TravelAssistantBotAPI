@@ -11,7 +11,7 @@ using TravelAssistantBot.Infrastructure.EntityFramework;
 namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
 {
     [DbContext(typeof(TravelAssistantBotContext))]
-    [Migration("20230625165908_Initial")]
+    [Migration("20230626175532_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -90,6 +90,34 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             FlightId = 7,
                             IATA = "AF",
                             Name = "Air France"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            FlightId = 8,
+                            IATA = "QF",
+                            Name = "Qantas"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            FlightId = 9,
+                            IATA = "AA",
+                            Name = "American Airlines"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            FlightId = 10,
+                            IATA = "DL",
+                            Name = "Delta Air Lines"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            FlightId = 11,
+                            IATA = "BA",
+                            Name = "British Airways"
                         });
                 });
 
@@ -136,14 +164,14 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                         new
                         {
                             Id = 1,
-                            Actual = new DateTime(2023, 6, 25, 10, 59, 8, 787, DateTimeKind.Local).AddTicks(9242),
+                            Actual = new DateTime(2023, 6, 26, 11, 55, 32, 488, DateTimeKind.Local).AddTicks(8982),
                             Airport = "Miami International Airport",
                             Delay = "43",
-                            Estimated = new DateTime(2023, 6, 23, 11, 38, 0, 0, DateTimeKind.Local),
+                            Estimated = new DateTime(2023, 6, 27, 11, 38, 0, 0, DateTimeKind.Local),
                             FlightId = 1,
                             Gate = "D6",
                             IATA = "MIA",
-                            Scheduled = new DateTime(2023, 6, 23, 11, 38, 0, 0, DateTimeKind.Local),
+                            Scheduled = new DateTime(2023, 6, 27, 11, 38, 0, 0, DateTimeKind.Local),
                             Terminal = "N"
                         },
                         new
@@ -152,11 +180,11 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             Actual = new DateTime(2023, 6, 23, 8, 10, 0, 0, DateTimeKind.Local),
                             Airport = "Internacional Benito Juarez",
                             Delay = "",
-                            Estimated = new DateTime(2023, 6, 23, 8, 23, 0, 0, DateTimeKind.Local),
+                            Estimated = new DateTime(2023, 6, 27, 8, 23, 0, 0, DateTimeKind.Local),
                             FlightId = 2,
                             Gate = "P",
                             IATA = "MEX",
-                            Scheduled = new DateTime(2023, 6, 23, 8, 23, 0, 0, DateTimeKind.Local),
+                            Scheduled = new DateTime(2023, 6, 27, 8, 23, 0, 0, DateTimeKind.Local),
                             Terminal = "2"
                         },
                         new
@@ -165,11 +193,11 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             Actual = new DateTime(2023, 6, 23, 11, 10, 0, 0, DateTimeKind.Local),
                             Airport = "Tocumen International",
                             Delay = "8",
-                            Estimated = new DateTime(2023, 6, 23, 11, 3, 0, 0, DateTimeKind.Local),
+                            Estimated = new DateTime(2023, 6, 27, 11, 3, 0, 0, DateTimeKind.Local),
                             FlightId = 3,
                             Gate = "103",
                             IATA = "PTY",
-                            Scheduled = new DateTime(2023, 6, 23, 11, 3, 0, 0, DateTimeKind.Local),
+                            Scheduled = new DateTime(2023, 6, 27, 11, 3, 0, 0, DateTimeKind.Local),
                             Terminal = "1"
                         },
                         new
@@ -178,51 +206,103 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             Actual = new DateTime(2023, 6, 23, 10, 52, 0, 0, DateTimeKind.Local),
                             Airport = "El Salvador International",
                             Delay = "",
-                            Estimated = new DateTime(2023, 6, 23, 11, 0, 0, 0, DateTimeKind.Local),
+                            Estimated = new DateTime(2023, 6, 28, 11, 0, 0, 0, DateTimeKind.Local),
                             FlightId = 4,
                             Gate = "",
                             IATA = "SAL",
-                            Scheduled = new DateTime(2023, 6, 23, 11, 0, 0, 0, DateTimeKind.Local),
+                            Scheduled = new DateTime(2023, 6, 28, 11, 0, 0, 0, DateTimeKind.Local),
                             Terminal = "E"
                         },
                         new
                         {
                             Id = 5,
-                            Actual = new DateTime(2023, 6, 25, 10, 59, 8, 787, DateTimeKind.Local).AddTicks(9480),
+                            Actual = new DateTime(2023, 6, 26, 11, 55, 32, 488, DateTimeKind.Local).AddTicks(9154),
                             Airport = "Logan International",
                             Delay = "",
-                            Estimated = new DateTime(2023, 6, 24, 3, 38, 0, 0, DateTimeKind.Local),
+                            Estimated = new DateTime(2023, 6, 28, 3, 38, 0, 0, DateTimeKind.Local),
                             FlightId = 5,
                             Gate = "",
                             IATA = "BOS",
-                            Scheduled = new DateTime(2023, 6, 24, 3, 38, 0, 0, DateTimeKind.Local),
+                            Scheduled = new DateTime(2023, 6, 28, 3, 38, 0, 0, DateTimeKind.Local),
                             Terminal = "B"
                         },
                         new
                         {
                             Id = 6,
-                            Actual = new DateTime(2023, 6, 25, 10, 59, 8, 787, DateTimeKind.Local).AddTicks(9521),
+                            Actual = new DateTime(2023, 6, 26, 11, 55, 32, 488, DateTimeKind.Local).AddTicks(9232),
                             Airport = "John F Kennedy International",
                             Delay = "",
-                            Estimated = new DateTime(2023, 6, 24, 4, 52, 0, 0, DateTimeKind.Local),
+                            Estimated = new DateTime(2023, 6, 29, 4, 52, 0, 0, DateTimeKind.Local),
                             FlightId = 6,
                             Gate = "1",
                             IATA = "JFK",
-                            Scheduled = new DateTime(2023, 6, 24, 4, 52, 0, 0, DateTimeKind.Local),
+                            Scheduled = new DateTime(2023, 6, 29, 4, 52, 0, 0, DateTimeKind.Local),
                             Terminal = "8"
                         },
                         new
                         {
                             Id = 7,
-                            Actual = new DateTime(2023, 6, 25, 10, 59, 8, 787, DateTimeKind.Local).AddTicks(9560),
+                            Actual = new DateTime(2023, 6, 26, 11, 55, 32, 488, DateTimeKind.Local).AddTicks(9267),
                             Airport = "Charles De Gaulle",
                             Delay = "",
-                            Estimated = new DateTime(2023, 6, 24, 8, 15, 0, 0, DateTimeKind.Local),
+                            Estimated = new DateTime(2023, 6, 29, 8, 15, 0, 0, DateTimeKind.Local),
                             FlightId = 7,
                             Gate = "",
                             IATA = "CDG",
-                            Scheduled = new DateTime(2023, 6, 24, 8, 15, 0, 0, DateTimeKind.Local),
+                            Scheduled = new DateTime(2023, 6, 29, 8, 15, 0, 0, DateTimeKind.Local),
                             Terminal = "2E"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Actual = new DateTime(2023, 6, 25, 5, 15, 0, 0, DateTimeKind.Local),
+                            Airport = "Los Angeles International",
+                            Delay = "",
+                            Estimated = new DateTime(2023, 6, 30, 5, 40, 0, 0, DateTimeKind.Local),
+                            FlightId = 8,
+                            Gate = "53B",
+                            IATA = "LAX",
+                            Scheduled = new DateTime(2023, 6, 30, 5, 40, 0, 0, DateTimeKind.Local),
+                            Terminal = "5"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Actual = new DateTime(2023, 6, 26, 11, 55, 32, 488, DateTimeKind.Local).AddTicks(9330),
+                            Airport = "Juan Santamaría International",
+                            Delay = "78",
+                            Estimated = new DateTime(2023, 7, 1, 13, 50, 0, 0, DateTimeKind.Local),
+                            FlightId = 9,
+                            Gate = "A4A",
+                            IATA = "SJO",
+                            Scheduled = new DateTime(2023, 7, 1, 13, 50, 0, 0, DateTimeKind.Local),
+                            Terminal = "1"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Actual = new DateTime(2023, 6, 26, 11, 55, 32, 488, DateTimeKind.Local).AddTicks(9364),
+                            Airport = "Barajas",
+                            Delay = "",
+                            Estimated = new DateTime(2023, 7, 2, 6, 5, 0, 0, DateTimeKind.Local),
+                            FlightId = 10,
+                            Gate = "",
+                            IATA = "MAD",
+                            Scheduled = new DateTime(2023, 7, 2, 6, 5, 0, 0, DateTimeKind.Local),
+                            Terminal = "1"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            Actual = new DateTime(2023, 6, 25, 9, 35, 0, 0, DateTimeKind.Local),
+                            Airport = "Miami International Airport",
+                            Delay = "",
+                            Estimated = new DateTime(2023, 7, 2, 9, 40, 0, 0, DateTimeKind.Local),
+                            FlightId = 11,
+                            Gate = "D44",
+                            IATA = "MIA",
+                            Scheduled = new DateTime(2023, 7, 2, 9, 40, 0, 0, DateTimeKind.Local),
+                            Terminal = "N"
                         });
                 });
 
@@ -272,11 +352,11 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             Actual = new DateTime(2023, 6, 23, 8, 30, 0, 0, DateTimeKind.Local),
                             Airport = "Ramon Villeda Morales International",
                             Delay = "76",
-                            Estimated = new DateTime(2023, 6, 23, 7, 14, 0, 0, DateTimeKind.Local),
+                            Estimated = new DateTime(2023, 6, 26, 7, 14, 0, 0, DateTimeKind.Local),
                             FlightId = 1,
                             Gate = "",
                             IATA = "SAP",
-                            Scheduled = new DateTime(2023, 6, 23, 7, 14, 0, 0, DateTimeKind.Local),
+                            Scheduled = new DateTime(2023, 6, 26, 7, 14, 0, 0, DateTimeKind.Local),
                             Terminal = ""
                         },
                         new
@@ -285,11 +365,11 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             Actual = new DateTime(2023, 6, 23, 6, 14, 0, 0, DateTimeKind.Local),
                             Airport = "Ramon Villeda Morales International",
                             Delay = "15",
-                            Estimated = new DateTime(2023, 6, 23, 6, 0, 0, 0, DateTimeKind.Local),
+                            Estimated = new DateTime(2023, 6, 26, 6, 0, 0, 0, DateTimeKind.Local),
                             FlightId = 2,
                             Gate = "",
                             IATA = "SAP",
-                            Scheduled = new DateTime(2023, 6, 23, 6, 0, 0, 0, DateTimeKind.Local),
+                            Scheduled = new DateTime(2023, 6, 26, 6, 0, 0, 0, DateTimeKind.Local),
                             Terminal = ""
                         },
                         new
@@ -298,11 +378,11 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             Actual = new DateTime(2023, 6, 23, 8, 26, 0, 0, DateTimeKind.Local),
                             Airport = "Ramon Villeda Morales International",
                             Delay = "36",
-                            Estimated = new DateTime(2023, 6, 23, 7, 51, 0, 0, DateTimeKind.Local),
+                            Estimated = new DateTime(2023, 6, 27, 7, 51, 0, 0, DateTimeKind.Local),
                             FlightId = 3,
                             Gate = "5",
                             IATA = "SAP",
-                            Scheduled = new DateTime(2023, 6, 23, 7, 51, 0, 0, DateTimeKind.Local),
+                            Scheduled = new DateTime(2023, 6, 27, 7, 51, 0, 0, DateTimeKind.Local),
                             Terminal = ""
                         },
                         new
@@ -311,37 +391,37 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             Actual = new DateTime(2023, 6, 23, 10, 23, 0, 0, DateTimeKind.Local),
                             Airport = "Ramon Villeda Morales International",
                             Delay = "8",
-                            Estimated = new DateTime(2023, 6, 23, 10, 15, 0, 0, DateTimeKind.Local),
+                            Estimated = new DateTime(2023, 6, 27, 10, 15, 0, 0, DateTimeKind.Local),
                             FlightId = 4,
                             Gate = "",
                             IATA = "SAP",
-                            Scheduled = new DateTime(2023, 6, 23, 10, 15, 0, 0, DateTimeKind.Local),
+                            Scheduled = new DateTime(2023, 6, 27, 10, 15, 0, 0, DateTimeKind.Local),
                             Terminal = ""
                         },
                         new
                         {
                             Id = 5,
-                            Actual = new DateTime(2023, 6, 25, 10, 59, 8, 787, DateTimeKind.Local).AddTicks(9466),
+                            Actual = new DateTime(2023, 6, 26, 11, 55, 32, 488, DateTimeKind.Local).AddTicks(9144),
                             Airport = "Miami International Airport",
                             Delay = "",
-                            Estimated = new DateTime(2023, 6, 24, 0, 10, 0, 0, DateTimeKind.Local),
+                            Estimated = new DateTime(2023, 6, 27, 0, 10, 0, 0, DateTimeKind.Local),
                             FlightId = 5,
                             Gate = "G12",
                             IATA = "MIA",
-                            Scheduled = new DateTime(2023, 6, 24, 0, 10, 0, 0, DateTimeKind.Local),
+                            Scheduled = new DateTime(2023, 6, 27, 0, 10, 0, 0, DateTimeKind.Local),
                             Terminal = "C"
                         },
                         new
                         {
                             Id = 6,
-                            Actual = new DateTime(2023, 6, 25, 10, 59, 8, 787, DateTimeKind.Local).AddTicks(9512),
+                            Actual = new DateTime(2023, 6, 26, 11, 55, 32, 488, DateTimeKind.Local).AddTicks(9222),
                             Airport = "Miami International Airport",
                             Delay = "",
-                            Estimated = new DateTime(2023, 6, 24, 1, 50, 0, 0, DateTimeKind.Local),
+                            Estimated = new DateTime(2023, 6, 28, 1, 50, 0, 0, DateTimeKind.Local),
                             FlightId = 6,
                             Gate = "D32",
                             IATA = "MIA",
-                            Scheduled = new DateTime(2023, 6, 24, 1, 50, 0, 0, DateTimeKind.Local),
+                            Scheduled = new DateTime(2023, 6, 28, 1, 50, 0, 0, DateTimeKind.Local),
                             Terminal = "N"
                         },
                         new
@@ -350,12 +430,64 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             Actual = new DateTime(2023, 6, 23, 17, 52, 0, 0, DateTimeKind.Local),
                             Airport = "Miami International Airport",
                             Delay = "33",
-                            Estimated = new DateTime(2023, 6, 23, 17, 20, 0, 0, DateTimeKind.Local),
+                            Estimated = new DateTime(2023, 6, 29, 17, 20, 0, 0, DateTimeKind.Local),
                             FlightId = 7,
                             Gate = "J18",
                             IATA = "MIA",
-                            Scheduled = new DateTime(2023, 6, 23, 17, 20, 0, 0, DateTimeKind.Local),
+                            Scheduled = new DateTime(2023, 6, 29, 17, 20, 0, 0, DateTimeKind.Local),
                             Terminal = "S"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Actual = new DateTime(2023, 6, 25, 3, 22, 0, 0, DateTimeKind.Local),
+                            Airport = "Miami International Airport",
+                            Delay = "22",
+                            Estimated = new DateTime(2023, 6, 30, 3, 1, 0, 0, DateTimeKind.Local),
+                            FlightId = 8,
+                            Gate = "E5",
+                            IATA = "MIA",
+                            Scheduled = new DateTime(2023, 6, 30, 3, 1, 0, 0, DateTimeKind.Local),
+                            Terminal = "C"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Actual = new DateTime(2023, 6, 25, 14, 44, 0, 0, DateTimeKind.Local),
+                            Airport = "Miami International Airport",
+                            Delay = "124",
+                            Estimated = new DateTime(2023, 6, 30, 12, 52, 0, 0, DateTimeKind.Local),
+                            FlightId = 9,
+                            Gate = "D42",
+                            IATA = "MIA",
+                            Scheduled = new DateTime(2023, 6, 30, 12, 52, 0, 0, DateTimeKind.Local),
+                            Terminal = "N"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Actual = new DateTime(2023, 6, 25, 15, 57, 0, 0, DateTimeKind.Local),
+                            Airport = "Miami International Airport",
+                            Delay = "27",
+                            Estimated = new DateTime(2023, 7, 1, 15, 30, 0, 0, DateTimeKind.Local),
+                            FlightId = 10,
+                            Gate = "E31",
+                            IATA = "MIA",
+                            Scheduled = new DateTime(2023, 7, 1, 15, 30, 0, 0, DateTimeKind.Local),
+                            Terminal = "C"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            Actual = new DateTime(2023, 6, 25, 4, 40, 0, 0, DateTimeKind.Local),
+                            Airport = "Internacional Benito Juarez",
+                            Delay = "20",
+                            Estimated = new DateTime(2023, 7, 2, 4, 20, 0, 0, DateTimeKind.Local),
+                            FlightId = 11,
+                            Gate = "33",
+                            IATA = "MEX",
+                            Scheduled = new DateTime(2023, 7, 2, 4, 20, 0, 0, DateTimeKind.Local),
+                            Terminal = "1"
                         });
                 });
 
@@ -411,7 +543,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             AirlineId = 1,
                             ArrivalId = 1,
                             DepartureId = 1,
-                            FlightDate = new DateTime(2023, 6, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FlightDate = new DateTime(2023, 6, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             FlightInfoId = 1,
                             FlightStatus = "scheduled",
                             Live = ""
@@ -423,7 +555,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             AirlineId = 2,
                             ArrivalId = 2,
                             DepartureId = 2,
-                            FlightDate = new DateTime(2023, 6, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FlightDate = new DateTime(2023, 6, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             FlightInfoId = 2,
                             FlightStatus = "landed",
                             Live = ""
@@ -435,7 +567,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             AirlineId = 3,
                             ArrivalId = 3,
                             DepartureId = 3,
-                            FlightDate = new DateTime(2023, 6, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FlightDate = new DateTime(2023, 6, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             FlightInfoId = 3,
                             FlightStatus = "landed",
                             Live = ""
@@ -447,7 +579,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             AirlineId = 4,
                             ArrivalId = 4,
                             DepartureId = 4,
-                            FlightDate = new DateTime(2023, 6, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FlightDate = new DateTime(2023, 6, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             FlightInfoId = 4,
                             FlightStatus = "landed",
                             Live = ""
@@ -459,7 +591,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             AirlineId = 5,
                             ArrivalId = 5,
                             DepartureId = 5,
-                            FlightDate = new DateTime(2023, 6, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FlightDate = new DateTime(2023, 6, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             FlightInfoId = 5,
                             FlightStatus = "scheduled",
                             Live = ""
@@ -471,7 +603,7 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             AirlineId = 6,
                             ArrivalId = 6,
                             DepartureId = 6,
-                            FlightDate = new DateTime(2023, 6, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FlightDate = new DateTime(2023, 6, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             FlightInfoId = 6,
                             FlightStatus = "scheduled",
                             Live = ""
@@ -483,9 +615,57 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             AirlineId = 7,
                             ArrivalId = 7,
                             DepartureId = 7,
-                            FlightDate = new DateTime(2023, 6, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FlightDate = new DateTime(2023, 6, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             FlightInfoId = 7,
                             FlightStatus = "active",
+                            Live = ""
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Aircraft = "",
+                            AirlineId = 8,
+                            ArrivalId = 8,
+                            DepartureId = 8,
+                            FlightDate = new DateTime(2023, 6, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FlightInfoId = 8,
+                            FlightStatus = "landed",
+                            Live = ""
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Aircraft = "",
+                            AirlineId = 9,
+                            ArrivalId = 9,
+                            DepartureId = 9,
+                            FlightDate = new DateTime(2023, 6, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FlightInfoId = 9,
+                            FlightStatus = "scheduled",
+                            Live = ""
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Aircraft = "",
+                            AirlineId = 10,
+                            ArrivalId = 10,
+                            DepartureId = 10,
+                            FlightDate = new DateTime(2023, 7, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FlightInfoId = 10,
+                            FlightStatus = "active",
+                            Live = ""
+                        },
+                        new
+                        {
+                            Id = 11,
+                            Aircraft = "",
+                            AirlineId = 11,
+                            ArrivalId = 11,
+                            DepartureId = 11,
+                            FlightDate = new DateTime(2023, 7, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FlightInfoId = 11,
+                            FlightStatus = "landed",
                             Live = ""
                         });
                 });
@@ -560,6 +740,34 @@ namespace TravelAssistantBot.Infrastructure.EntityFramework.Migrations
                             FlightId = 7,
                             IATA = "AF97",
                             Number = "97"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            FlightId = 8,
+                            IATA = "QF3130",
+                            Number = "3130"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            FlightId = 9,
+                            IATA = "AA1353",
+                            Number = "1353"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            FlightId = 10,
+                            IATA = "DL6774",
+                            Number = "6774"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            FlightId = 11,
+                            IATA = "BA4884",
+                            Number = "4884"
                         });
                 });
 
