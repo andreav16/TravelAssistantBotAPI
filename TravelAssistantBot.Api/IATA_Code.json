@@ -33,7 +33,7 @@
     {
       "city": "Boston",
       "code": "BOS",
-      "country": "Boston"
+      "country": "United States"
     },
     {
       "city": "Panama",
@@ -48,7 +48,33 @@
     {
       "city": "Miami",
       "code": "MIA",
-      "country": "Miami"
+      "country": "United States"
+    },
+    {
+      "city": "Los Angeles",
+      "code": "LAX",
+      "country": "United States"
+    },
+    {
+      "city": "San Jose",
+      "code": "SJO",
+      "country": "Costa Rica"
+    },
+    {
+      "city": "Madrid",
+      "code": "MAD",
+      "country": "España"
+    },
+    {
+      "city": "Bogota",
+      "code": "BOG",
+      "country": "Colombia"
+    },
+    {
+      "city": "Madrid",
+      "code": "MAD",
+      "country": "España"
     }
+
   ]
 }

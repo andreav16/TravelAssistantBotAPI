@@ -6,7 +6,7 @@
         "total": 458634
     },
   "data": [
-     //nuevos vuelos
+    //nuevos vuelos
     {
       "flight_date": "2023-06-25",
       "flight_status": "scheduled",
@@ -325,6 +325,211 @@
         "iata": "AF97",
         "icao": "AFR97",
         "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-06-25",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Miami International Airport",
+        "timezone": "America/New_York",
+        "iata": "MIA",
+        "icao": "KMIA",
+        "terminal": "C",
+        "gate": "E5",
+        "delay": 22,
+        "scheduled": "2023-06-25T09:01:00+00:00",
+        "estimated": "2023-06-25T09:01:00+00:00",
+        "actual": "2023-06-25T09:22:00+00:00",
+        "estimated_runway": "2023-06-25T09:22:00+00:00",
+        "actual_runway": "2023-06-25T09:22:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "5",
+        "gate": "53B",
+        "baggage": "T5C5",
+        "delay": null,
+        "scheduled": "2023-06-25T11:40:00+00:00",
+        "estimated": "2023-06-25T11:40:00+00:00",
+        "actual": "2023-06-25T11:15:00+00:00",
+        "estimated_runway": "2023-06-25T11:15:00+00:00",
+        "actual_runway": "2023-06-25T11:15:00+00:00"
+      },
+      "airline": {
+        "name": "Qantas",
+        "iata": "QF",
+        "icao": "QFA"
+      },
+      "flight": {
+        "number": "3130",
+        "iata": "QF3130",
+        "icao": "QFA3130",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "1407",
+          "flight_iata": "aa1407",
+          "flight_icao": "aal1407"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-06-25",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Miami International Airport",
+        "timezone": "America/New_York",
+        "iata": "MIA",
+        "icao": "KMIA",
+        "terminal": "N",
+        "gate": "D42",
+        "delay": 124,
+        "scheduled": "2023-06-25T18:52:00+00:00",
+        "estimated": "2023-06-25T18:52:00+00:00",
+        "actual": "2023-06-25T20:44:00+00:00",
+        "estimated_runway": "2023-06-25T20:44:00+00:00",
+        "actual_runway": "2023-06-25T20:44:00+00:00"
+      },
+      "arrival": {
+        "airport": "Juan Santamaría International",
+        "timezone": "America/Costa_Rica",
+        "iata": "SJO",
+        "icao": "MROC",
+        "terminal": "1",
+        "gate": "A4A",
+        "baggage": "2",
+        "delay": 78,
+        "scheduled": "2023-06-25T19:50:00+00:00",
+        "estimated": "2023-06-25T19:50:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "1353",
+        "iata": "AA1353",
+        "icao": "AAL1353",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-06-25",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Miami International Airport",
+        "timezone": "America/New_York",
+        "iata": "MIA",
+        "icao": "KMIA",
+        "terminal": "C",
+        "gate": "E31",
+        "delay": 27,
+        "scheduled": "2023-06-25T21:30:00+00:00",
+        "estimated": "2023-06-25T21:30:00+00:00",
+        "actual": "2023-06-25T21:57:00+00:00",
+        "estimated_runway": "2023-06-25T21:57:00+00:00",
+        "actual_runway": "2023-06-25T21:57:00+00:00"
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "1",
+        "gate": null,
+        "baggage": "I107",
+        "delay": null,
+        "scheduled": "2023-06-26T12:05:00+00:00",
+        "estimated": "2023-06-26T12:05:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "6774",
+        "iata": "DL6774",
+        "icao": "DAL6774",
+        "codeshared": {
+          "airline_name": "air europa",
+          "airline_iata": "ux",
+          "airline_icao": "aea",
+          "flight_number": "98",
+          "flight_iata": "ux98",
+          "flight_icao": "aea98"
+        }
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2023-06-25",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Internacional Benito Juarez",
+        "timezone": "America/Mexico_City",
+        "iata": "MEX",
+        "icao": "MMMX",
+        "terminal": "1",
+        "gate": "33",
+        "delay": 20,
+        "scheduled": "2023-06-25T10:20:00+00:00",
+        "estimated": "2023-06-25T10:20:00+00:00",
+        "actual": "2023-06-25T10:40:00+00:00",
+        "estimated_runway": "2023-06-25T10:40:00+00:00",
+        "actual_runway": "2023-06-25T10:40:00+00:00"
+      },
+      "arrival": {
+        "airport": "Miami International Airport",
+        "timezone": "America/New_York",
+        "iata": "MIA",
+        "icao": "KMIA",
+        "terminal": "N",
+        "gate": "D44",
+        "baggage": "CD",
+        "delay": null,
+        "scheduled": "2023-06-25T15:40:00+00:00",
+        "estimated": "2023-06-25T15:40:00+00:00",
+        "actual": "2023-06-25T15:35:00+00:00",
+        "estimated_runway": "2023-06-25T15:35:00+00:00",
+        "actual_runway": "2023-06-25T15:35:00+00:00"
+      },
+      "airline": {
+        "name": "British Airways",
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "flight": {
+        "number": "4884",
+        "iata": "BA4884",
+        "icao": "BAW4884",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "264",
+          "flight_iata": "aa264",
+          "flight_icao": "aal264"
+        }
       },
       "aircraft": null,
       "live": null
