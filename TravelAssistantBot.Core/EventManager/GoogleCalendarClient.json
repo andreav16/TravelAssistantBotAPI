@@ -12,12 +12,12 @@
 
 
   "installed": {
-    "client_id": "234598046215-pggodfknoi5no7p3jt3rmehsa1k04501.apps.googleusercontent.com",
-    "project_id": "virtualassistant-387704",
+    "client_id": "885204422875-qclk4r22u76aokpg21fu96vvvo8risbs.apps.googleusercontent.com",
+    "project_id": "virtualassistant-415214",
     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
     "token_uri": "https://oauth2.googleapis.com/token",
     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_secret": "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",
+    "client_secret": "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",
     "redirect_uris": [ "http://localhost" ]
   }
 }
